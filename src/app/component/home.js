@@ -72,12 +72,18 @@ export default function Home() {
         >
           Aspiring Engineer | Innovator | STEM Leader
         </p>
-{/* 
+
+        {/* <p
+          className={`mt-4 text-lg tracking-widest font-bold text-blue-100 ${ptSerif.className}`}
+        >
+          Aspiring Engineer | Innovator | STEM Leader
+        </p> */}
+
         <p
           className={`mt-2 text-lg tracking-widest font-bold text-blue-100 ${ptSerif.className}`}
         >
-          humaylfazal@icloud.com
-        </p> */}
+         Email Me: humaylfazal@icloud.com
+        </p>
 
         {/* Buttons */}
         <div className="mt-6 flex gap-4">
@@ -89,12 +95,12 @@ export default function Home() {
             Download Resume
           </a>
 
-          <a
+          {/* <a
             href="mailto:humaylfazal@icloud.com?subject=Inquiry%20from%20Portfolio"
             className="px-6 py-3 border border-[#d6d6d6] text-[#d6d6d6] rounded-lg hover:bg-blue-50 transition"
           >
             Contact Me
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
