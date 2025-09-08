@@ -88,11 +88,15 @@ export default function ProjectsDetails() {
       cover: "/image/rover.png",
       gallery: [],
       blurb:
-        "Designed to handle difficult terrain, carry essential supplies, and operate where conventional vehicles cannot go.",
+        "Why this project: To construct a vehicle that can reach communities that lack road access or healthcare so that both medical staff and necessary supplies can get to the areas that need them the most.",
       body: [
-        "The idea for this project started after learning about the challenges faced by communities with no direct access to roads or healthcare facilities. I wanted to design something practical that could make a real difference in how medical teams and supplies reach people in urgent need.",
-        "The rover is being built to handle difficult terrain, carry essential supplies, and operate in areas where conventional vehicles cannot go. I’ve worked on the design, selected durable materials, and developed a mechanism that can manage steep and uneven ground.",
-        "It’s still in the prototype stage, but the aim is to test it under simulated field conditions to see how it performs in real-world scenarios.",
+        "Created and visualized a rover to go over rough, hill-like terrains and carry local people the materials they need to survive.",
+        // "The idea for this project started after learning about the challenges faced by communities with no direct access to roads or healthcare facilities. I wanted to design something practical that could make a real difference in how medical teams and supplies reach people in urgent need.",
+        "Did extensive research and identified materials which are both durable and cost-effective to provide maximum resistance.",
+
+        "Constructed the mechanical stability systems for secure travel over difficult grounds",
+        "Designed test plans of the conditions that would be encountered in the field to confirm the feasibility of the vehicle in real life.",
+        "Impact: Made it possible to take medical attention, electricity, hygiene, and food to the less favored areas in a quicker way."
       ],
       chips: ["Robotics", "Rapid Prototyping", "Humanitarian Tech"],
       note: "Keep space for photos of the Model (Sketches, Model Drawing, 3D Printed Model).",
@@ -102,17 +106,19 @@ export default function ProjectsDetails() {
       title: "Ocean Clean-Up Rover (FASAL BOT)",
       cover: "/image/sea_rover/img1.JPG",
       gallery: [
-        "/image/sea_rover/img2.JPG",
-        "/image/sea_rover/img3.JPG",
-        "/image/sea_rover/img4.JPG",
+        "/image/sea_rover/A.JPG",
+        "/image/sea_rover/B.JPG",
+        "/image/sea_rover/C.JPG",
         // "/projects/fasal-bot/expo.jpg",
       ],
       blurb:
-        "A small-scale rover that channels floating debris into a storage bay while letting water flow through — lightweight, energy-efficient, and maintainable.",
+        "Why this project: To fight water pollution by extracting floating wastes from oceans and rivers in a way that saves energy.",
       body: [
-        "This project began during the Expo 2020 Napkin Challenge, where my team and I sketched an innovation to solve a real-world problem. We chose to address water pollution, focusing on removing floating waste from oceans and waterways.",
-        "Our concept advanced to the Young Innovator Finalist stage, and we signed a contract with Expo 2020 to develop it further. The design evolved into a working 3D prototype using a mechanical collection system.",
-        "The prototype was displayed in the Sustainability Pavilion at Expo 2020, becoming part of a global conversation on engineering solutions for environmental challenges.",
+        "Created during the Expo 2020 Napkin Challenge and went up to the Young Innovator Finalist stage.",
+        "Made a small-sized rover with a mechanical system to gather floating waste and purify water at the same time.",
+        "Worked out a 3D model, energy-saving and low-maintenance were the main optimizations.",
+        "He presented the prototype at the Sustainability Pavilion during Expo 2020 to an international audience.",
+        "Impact: Encouraged the public to consider sustainable engineering solutions that can be adapted for ocean sustainability."
       ],
       chips: ["Sustainability", "Mechanical Design", "Team Project"],
       linkLabel: "Model photos & sketches",
@@ -122,51 +128,58 @@ export default function ProjectsDetails() {
     {
       id: "ai-pneumonia",
       title: "AI Model for Pneumonia Detection",
-      cover: "/image/three.png",
+      cover: "/image/model.webp",
       gallery: [
        
       ],
       blurb:
-        "Trained a model on chest X-rays to identify pneumonia; explored privacy, bias, and clinical reliability.",
+        "Why this project: To investigate whether AI could aid doctors in making quicker and more accurate decisions in the case of dangerous diseases.",
+        // "Trained a model on chest X-rays to identify pneumonia; explored privacy, bias, and clinical reliability.",
       body: [
-        "This project began with a simple question: how can technology help doctors make faster and more accurate diagnoses? I chose pneumonia detection because of its global impact and the importance of early treatment.",
-        "Working with medical imaging datasets, I trained an AI model to identify signs of pneumonia from X-ray scans — cleaning data, coding the model in Python, and testing accuracy.",
-        "The goal was to understand both the potential and the limits of AI in real medical settings.",
+        "Gathered and cleansed medical imaging datasets (chest X-rays).",
+        "Developed and trained a deep learning model by using Python to recognize pneumonia in chest X-rays.",
+        "On the one hand, AI testing and performance measurement were held; on the other, the medical staff was informed about accuracy, fairness, and trustworthiness of the AI system in their clinical decision-making process.",
+        "Looking into the issue of AI in medicine, the group considered privacy protection and common use, among other things.",
+        "Impact: Shown the potential of AI to speed up diagnostic processes while simultaneously exposing its current limits."
       ],
       chips: ["Python", "Deep Learning", "Healthcare AI"],
     },
     {
       id: "stanford-ml",
       title: "Machine Learning System — Stanford Pre-Collegiate",
-      cover: "/image/four.png",
+      cover: "/image/four1.png",
       gallery: [
         // "/projects/stanford-ml/cover.jpg",
         // "/projects/stanford-ml/notes.jpg",
       ],
       blurb:
-        "Two-week intensive on AI (supervised, unsupervised, RL). Final project: neural-network model of machine failure.",
+        "Why this project: This project was made to adopt the real-world application of supervised, unsupervised, and reinforcement learning to tackle practical problems by deepening AI knowledge.",
       body: [
-        "Completed a two-week intensive course covering supervised, unsupervised, and reinforcement learning. Implemented algorithms in Python with both educational and real datasets, applying linear algebra, statistics, calculus, and optimization.",
-        "Explored bias in AI systems and mitigation strategies. Final project modeled machine failure using neural networks.",
-        "Built technical depth and systems thinking for safe, efficient, and ethical AI.",
+        "Went through a two-week rigorous training program with Stanford tutors.",
+        "Python was the programming language used to implement the algorithms, in which linear algebra, calculus, and optimization skills were applied.",
+        "The author created a neural-network model that predicts the breakdown of machines by using real data.",
+        "Investigated the presence of bias in AI systems and tried to find ways to reduce it.",
+        "Impact: Improved knowledge of theory, practical application skills, and ethical issues in AI-related fields."
+
       ],
       chips: ["Neural Networks", "Modeling", "Ethics"],
     },
     {
       id: "epq-euler",
       title: "Extended Project Qualification — EPQ",
-      cover: "/image/euler.png",
+      cover: "/image/euler.jpeg",
       gallery: [
         // "/projects/epq-euler/cover.jpg",
         // "/projects/epq-euler/math.jpg",
         // "/projects/epq-euler/modes.jpg",
       ],
-      blurb: "A dissertation investigating how varying airfoil shapes influence lift and drag across subsonic and supersonic flight conditions.",
+      blurb: "Why this project: To delve into the effects that airfoil design had on the performance of aircraft, connecting physics, math, and engineering.",
   body: [
-    "Conducted an in-depth exploration of aerodynamic principles, focusing on the impact of airfoil geometry on aircraft performance in different flight regimes.",
-    "Integrated mathematical modeling, aerodynamic simulations, and comparative analysis to evaluate subsonic versus supersonic conditions.",
-    "Emphasized critical evaluation, structured problem-solving, and technical writing aligned with university-level research standards.",
-    "The work strengthened independent inquiry, data analysis, and research communication skills while offering insights into design trade-offs faced by aerospace engineers.",
+    "Explored airfoil shape and its effects on lift and drag for subsonic vs supersonic conditions.",
+    "Did mathematical modeling and aerodynamic simulations to illustrate differences in flight regimes.",
+    "Started working on a research paper at the university level by applying core research and technical writing competences.",
+    "Improved abilities in independent study, data interpretation, and research-related communication.",
+    "The impact: The project provided ideas about the issues of design that the aerospace field facing which help the readiness of the advanced study by giving the hints based on this research."
   ],
   chips: ["Aerodynamics", "Applied Physics", "Research Writing"],    },
   ];

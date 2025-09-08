@@ -83,18 +83,19 @@ export default function SportsSection() {
     {
       title: "Cricket – U19 School Team",
       details:
-        "Cricket has been my favourite sport for as long as I can remember. It is the sport I grew up watching, playing, and dreaming about. Every match, whether in a school tournament or a casual weekend game, has deepened my love for it. I am a core member of the U19 cricket team, representing my school in national and international tournaments, including the ARCH Trophy. Captaining the team during inter-school championships has been one of the most rewarding experiences of my life. On the pitch, I’ve learned how to think strategically under pressure, rally a team after setbacks, and celebrate every small victory together. Cricket has taught me discipline, patience, and the importance of unity—it’s a passion that will always be part of who I am.",
+        "I recall for as long as I can remember, cricket was my passion but the game has been beyond my love for the sport. My participation in the school's U19 team national and international tournaments such as the ARCH Trophy, and spearheading the inter-school competitions were very instrumental for me because I learned to analyze the situation under pressure, to adjust strategies in real time, and to unify a group around a shared objective. Such experiences are reflective of my approach to science and engineering - conducting experiments, modifying when outcomes are different from anticipated, and persevering until the problem gets resolved. Cricket has been a major factor in my leadership as well. Knowing the right time to be a leader, when to listen and how to convince a team after a disappointment have been the most important takeaways from my cricket experiences. The qualities of discipline, patience, and unity that I have developed through the sport have greatly contributed to the way I work in labs, classrooms, and collaborative projects. ",
+        // "Cricket has been my favourite sport for as long as I can remember. It is the sport I grew up watching, playing, and dreaming about. Every match, whether in a school tournament or a casual weekend game, has deepened my love for it. I am a core member of the U19 cricket team, representing my school in national and international tournaments, including the ARCH Trophy. Captaining the team during inter-school championships has been one of the most rewarding experiences of my life. On the pitch, I’ve learned how to think strategically under pressure, rally a team after setbacks, and celebrate every small victory together. Cricket has taught me discipline, patience, and the importance of unity—it’s a passion that will always be part of who I am.",
       images: [
-        "/image/cricket/cricket1.JPG",
+        "/image/cricket/mc.jpg",
         // Add more cricket images here if available
       ],
     },
     {
       title: "Water Polo – U19 School Team",
       details:
-        "As starting center for the U19 water polo team, I’ve helped secure consecutive inter-school championship victories since Year 10. Water polo has pushed me physically and mentally, demanding constant communication, quick thinking, and relentless effort. Being part of an undefeated team has reinforced my belief in preparation, resilience, and trust among teammates.",
+        "Since Year 10, I have been the starting center for the U19 water polo team, winning championships two years in a row and helping my school stay undefeated. Water polo has been a rigorous physical test of endurance, but it has also been a great exercise for my brain as I have had to think quickly under pressure, speak clearly, and trust wholeheartedly in my teammates. I have transferred the intensity of every water polo match to academic and engineering challenges that I have faced, and I have always tried to 'anticipate, adapt, and persist'. I have been greatly influenced by being in a team where work and strength of character are the main driving forces for success, and this has affected my attitude towards leadership, teamwork, and problem-solving at other times and places.",
       images: [
-        "/image/polo.JPEG",
+        "/image/cricket/mp.jpg",
         // Add more water polo images here if available
       ],
     },

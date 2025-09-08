@@ -15,8 +15,8 @@ const ptSerif = PT_Serif({
 export default function Publications() {
   const publications = [
     {
-      title: "Research Paper – Mobility Rover for Remote Communities (In Progress)",
-      description:"I’m working on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
+      title: "Research Paper – Mobility Rover for Remote Communities",
+      description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
       // description:"Currently preparing a research paper on the design and development of a mobility rover aimed at delivering medical support and essential supplies to remote areas. Developed under guidance from an MIT PhD graduate, it will be submitted to academic journals upon completion. The paper covers engineering design principles, materials selection, terrain adaptability, and prototype testing, as well as the humanitarian applications of the rover.",
      
       link: null,

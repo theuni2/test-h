@@ -23,12 +23,17 @@ const ptSerif = PT_Serif({
 
 export default function Gallery() {
   const images = [
-    { src: '/image/cricket/cricket1.JPG', alt: 'Cricket match action' },
-    { src: '/image/polo.JPEG', alt: 'Water Polo' },
-    { src: '/image/cricket/cricket4.JPG', alt: 'Batsman playing a shot' },
-    { src: '/image/cricket/cricket3.JPEG', alt: 'Bowler mid-delivery' },
-    { src: '/image/cricket/cricket5.jpg', alt: 'Team celebrating victory' },
-    { src: '/image/cricket/cricket6.JPEG', alt: 'Cricket trophy moment' },
+    // { src: '/image/cricket/cricket1.JPG', alt: 'Cricket match action' },
+    // { src: '/image/polo.JPEG', alt: 'Water Polo' },
+    { src: '/image/cricket/1.jpg', alt: 'Water Polo' },
+    { src: '/image/cricket/2.JPEG', alt: 'Batsman playing a shot' },
+    { src: '/image/cricket/3.jpg', alt: 'Bowler mid-delivery' },
+    { src: '/image/cricket/4.JPEG', alt: 'Team celebrating victory' },
+    { src: '/image/cricket/5.JPG', alt: 'Cricket trophy moment' },
+    { src: '/image/cricket/6.jpg', alt: 'Cricket trophy moment' },
+    { src: '/image/cricket/7.jpg', alt: 'Cricket trophy moment' },
+    { src: '/image/cricket/8.JPG', alt: 'Cricket trophy moment' },
+    { src: '/image/cricket/9.jpg', alt: 'Cricket trophy moment' },
     // { src: '/images/polo.jpg', alt: 'Water polo match' },
   ];
 
@@ -66,7 +71,8 @@ export default function Gallery() {
                 alt={img.alt}
                 width={600}
                 height={400}
-                className="object-cover w-full h-64"
+                className="object-cover w-full h-64 "
+                // className="object-cover w-full h-64 "
               />
             </motion.div>
           ))}

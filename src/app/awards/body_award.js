@@ -127,7 +127,7 @@ const categories = [
     category: "Academic Excellence",
     items: [
       {
-        title: "High Achievers Award (Photo: Highest Achiever Award)",
+        title: "High Achievers Award",
         description:
           "Recognized for outstanding academic performance by securing grade 9 (highest possible) in all GCSE subjects — Mathematics, Further Mathematics, English Language, English Literature, Physics, Chemistry, Biology, Economics, Computer Science, and Physical Education — reflecting consistent dedication, academic excellence, and mastery across a broad range of disciplines."
       },
@@ -147,7 +147,7 @@ const categories = [
     category: "STEM Competitions",
     items: [
       {
-        title: "ISMTF Senior Olympiad (Photo: ISMTF Senior Olympiad)",
+        title: "ISMTF Senior Olympiad",
         description:
           "Represented Dubai College at the International Schools Mathematics Teachers Foundation (ISMTF) Senior Olympiad in Vienna, competing against top international teams. Demonstrated advanced problem-solving, logical reasoning, and mathematical modelling skills while collaborating under timed conditions to tackle complex, multi-step challenges."
       },

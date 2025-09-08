@@ -40,7 +40,7 @@ export default function CoreValues() {
       className="bg-[#011e35] p-8 flex flex-col justify-start rounded-lg shadow-lg h-full hover:shadow-xl transition-shadow duration-300"
     >
       <h3 className={`text-xl font-bold text-[#d6d6d6] mb-4 mx-auto ${ptSerif.className}`}>{value.title}</h3>
-      <p className={`text-[#d6d6d6] leading-relaxed text-center ${ptSerif.className}`}>{value.description}</p>
+      <p className={`text-[#d6d6d6] leading-relaxed text-center  ${ptSerif.className}`}>{value.description}</p>
     </div>
   ))}
 </div>
