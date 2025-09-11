@@ -209,6 +209,7 @@
 
 
 
+
 'use client';
 
 import React from 'react'
@@ -300,7 +301,24 @@ export default function Body() {
       ],
       photos: false,
     },
+    {
+      logo: "/image/company/attakkera.png",
+      title: "Attakkera",
+      date: "Grade 11",
+      duration: {
+        "start": "4 December 2024",
+        "end": "3 January 2025"
+      },
+      companyDetails: "ATTAKKERA is a cutting-edge research and design initiative focused on futuristic transport and infrastructure systems.",
+      description: [
+        "Gained hands-on experience in automotive manufacturing and 3D printing within mechanical engineering.",
+        "Learned to design detailed sketches and further developed a 3D prototype of a compact, all-terrain rover designed to deliver resources in hilly, disaster-hit areas where conventional cars cannot operate.",
+        "Showcased creativity, technical skill, and problem-solving ability."
+      ],
+    },
   ];
+
+
 
   return (
     <section className={`py-10 px-6 md:px-20 bg-[#d6d6d6] ${ptSerif.className} `}>
