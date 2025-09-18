@@ -85,7 +85,7 @@ export default function ProjectsDetails() {
     {
       id: "mobility-rover",
       title: "Mobility Rover for Landlocked Communities",
-      cover: "/image/rover.PNG",
+      cover: "/image/rover.png",
       gallery: [
         "/image/rover/A.PNG",
         "/image/rover/B.png",
