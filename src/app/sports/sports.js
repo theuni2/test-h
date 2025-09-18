@@ -155,7 +155,7 @@ export default function SportsSection() {
                     alt={sport.title}
                     width={800}
                     height={400}
-                    className="object-cover w-full h-64"
+                    className="object-cover w-full h-80"
                   />
                 </div>
               </div>
