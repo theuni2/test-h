@@ -73,30 +73,25 @@ export default function AboutMe() {
           <h2 className="text-3xl md:text-4xl font-bold mb-3 text-blue-950">About Me</h2>
           
           <p className={`text-[#1a334c] leading-relaxed mb-4 ${ptSerif.className}`}>
-            I’m Humayl Fazal, an A-Level student at Dubai College, studying Maths, Further Maths, Physics, and Chemistry. 
-            I practically live in equations. I enjoy working at the intersection of engineering, math, and innovation. 
-            Curiosity is not just a question; it’s a project waiting to unfold.
+          I’m Humayl Fazal, an A-Level student at Dubai College, pursuing Mathematics, Further Mathematics, Physics, and Chemistry. My passion lies at the intersection of engineering, mathematics, and innovation. I feel this is where curiosity meets practical problem-solving. I’m fascinated by engines, rovers, and machines. If it moves, I want to understand it.
+That curiosity grew into hands-on experience.
+
           </p>
           
           <p className="text-[#1a334c] leading-relaxed mb-4">
-            I’m fascinated by engines, rovers, and machines. If it moves, I want to understand it. 
-            This curiosity has driven me from asking “how does this work?” to actually building things. 
-            I’ve created a healthcare rover prototype, completed aerospace internships, and participated in STEM clubs 
-            where ideas are tested, broken, fixed, and improved.
+           As Head of the Physics & Engineering Society and Co-Founder of the Physics in Motion Club, I lead workshops, mentor peers, and organize events that inspire others to explore STEM. My participation in the British Mathematics Olympiad, ISMTF Senior Olympiad, and Stanford Math Challenge helped me learn how to solve problems under pressure.
           </p>
           
           <p className="text-[#1a334c] leading-relaxed mb-4">
-            As the Head of the Physics & Engineering Society and co-founder of the Physics in Motion Club, 
-            I spend a lot of time running workshops, mentoring my peers, and presenting challenges to those 
-            who enjoy thinking creatively. Competitions like the British Mathematics Olympiad, ISMTF, and 
-            the Stanford Math Challenge have trained me in problem-solving under pressure.
+           While showcasing projects at Expo 2020, where I represented my school’s U19 cricket team, and developing innovative engineering solutions, my goal was the same: make an impact through innovation. 
+
           </p>
           
-          <p className="text-[#1a334c] leading-relaxed">
+          {/* <p className="text-[#1a334c] leading-relaxed">
             When I’m not in the lab or classroom, I trade equations for cricket pitches and water polo matches. 
             Whether in sports, research, or designing solutions, I’m after the same goal: making an impact through 
             curiosity, teamwork, and enough persistence to turn “what if” into “why not.”
-          </p>
+          </p> */}
         </div>
 
         {/* Right: Image */}

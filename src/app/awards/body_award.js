@@ -234,7 +234,7 @@ const categories = [
       {
         title: "Fundraising for The Citizens Foundation (TCF)",
         description:
-          "As an Ambassador of Change for TCF, played a pivotal role in a team initiative that raised AED 100,000 to support education for underprivileged children in Pakistan. This funding fully covered the annual operational costs of two TCF schools, opening the doors of learning to nearly 200 students for an entire year. The campaign was driven by a belief that education transforms lives, and every effort—from planning and outreach to community engagement—was dedicated to ensuring these children have the chance to build a brighter future."
+          "As an Ambassador of Change for TCF, played a pivotal role in a team initiative that raised AED 187,000 to support education for underprivileged children in Pakistan. This funding fully covered the annual operational costs of two TCF schools, opening the doors of learning to nearly 420 students for an entire year. The campaign was driven by a belief that education transforms lives, and every effort—from planning and outreach to community engagement—was dedicated to ensuring these children have the chance to build a brighter future."
       },
       {
         title: "EEG OROC Campaign",

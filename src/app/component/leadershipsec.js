@@ -14,16 +14,16 @@ export default function LeadershipIdentities() {
   
     {
       title: "👨‍🏫 Mentor ",
-      text: "As Lower School Liaison and Head of the Physics & Engineering Society, I not only guide younger students through academics and projects helping them to succeed, but also showing them the confidence that they might not even be aware of. "
+      text: "I’ve guided younger students through academic challenges. The process of helping them discover their own confidence and potential felt incredibly rewarding to me."
     },
       {
       title: "🤝 Collaborator ",
       // text: "I thrive when working with others towards a common goal. My experiences in international competitions, society leadership, and team-based engineering projects have shown me the power of diverse ideas and shared commitment.",
-      text: "I am the person who grows best in the environment of teammates with which I share a common mission. In my life, I have been through the experience of the ISMTF Olympiad and the Dubai College Physics Olympiad, two very different things, but in both cases, I have witnessed how different ideas and a common commitment can change the situation from being a big problem to a breakthrough.",
+      text: "When I find people with whom I share goals, there is a boost of creativity in my mind. The discussions I have with them make me thrive! International competitions and team-based engineering projects allowed be to interact with people, and that’s how I realised the power of diverse ideas and shared commitment.",
     },
     {
       title: "🧩 Problem Solver",
-      text: "I see problems as puzzles. No matter if I am fabricating jet engine parts at Sarsan Aviation or solving abstract challenges in the British Math Olympiad, I always bring to the table my curiosity, creativity, and persistence when dealing with an obstacle, and I do so until I find a solution. "
+      text: "I see problems as opportunities to apply logic, creativity, and persistence. Observed this while diagnosing engineering issues during internships! Once I noticed that tackling abstract math problems can be approached with actual curiosity, focusing on the process as much as the answer."
       // text: "I view problems as puzzles rather than roadblocks. Whether I'm fixing engineering issues during internships or solving abstract math challenges, I approach obstacles with curiosity, creativity, and a determination to keep going until I find the solution."
       // text: "I see problems less as roadblocks and more as puzzles. From debugging engineering issues in internships to cracking abstract math challenges, I tackle obstacles with curiosity, creativity, and the persistence to push through until it clicks."
     },

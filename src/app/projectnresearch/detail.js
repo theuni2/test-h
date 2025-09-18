@@ -85,8 +85,12 @@ export default function ProjectsDetails() {
     {
       id: "mobility-rover",
       title: "Mobility Rover for Landlocked Communities",
-      cover: "/image/rover.png",
-      gallery: [],
+      cover: "/image/rover.PNG",
+      gallery: [
+        "/image/rover/A.PNG",
+        "/image/rover/B.png",
+        "/image/rover/C.jpg",
+      ],
       blurb:
         "Why this project: To construct a vehicle that can reach communities that lack road access or healthcare so that both medical staff and necessary supplies can get to the areas that need them the most.",
       body: [
@@ -100,6 +104,7 @@ export default function ProjectsDetails() {
       ],
       chips: ["Robotics", "Rapid Prototyping", "Humanitarian Tech"],
       note: "Keep space for photos of the Model (Sketches, Model Drawing, 3D Printed Model).",
+      link:'#mrover'
     },
     {
       id: "fasal-bot",
@@ -124,11 +129,13 @@ export default function ProjectsDetails() {
       linkLabel: "Model photos & sketches",
       linkHref:
         "https://drive.google.com/drive/folders/1ovdfTlKwYDlXdrkeJf6HCeRcVaDhMKzZ?usp=drive_link",
+      link:'/awards#expo'
     },
+
     {
       id: "ai-pneumonia",
       title: "AI Model for Pneumonia Detection",
-      cover: "/image/model.webp",
+      cover: "/image/model.png",
       gallery: [
        
       ],
@@ -147,7 +154,7 @@ export default function ProjectsDetails() {
     {
       id: "stanford-ml",
       title: "Machine Learning System — Stanford Pre-Collegiate",
-      cover: "/image/four1.png",
+      cover: "/image/for.png",
       gallery: [
         // "/projects/stanford-ml/cover.jpg",
         // "/projects/stanford-ml/notes.jpg",
@@ -167,7 +174,7 @@ export default function ProjectsDetails() {
     {
       id: "epq-euler",
       title: "Extended Project Qualification — EPQ",
-      cover: "/image/euler.jpeg",
+      cover: "/image/euler.png",
       gallery: [
         // "/projects/epq-euler/cover.jpg",
         // "/projects/epq-euler/math.jpg",
@@ -240,7 +247,7 @@ export default function ProjectsDetails() {
                     src={p.cover}
                     alt={p.title}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform p-1 rounded-lg duration-500 group-hover:scale-105"
                     sizes="(min-width: 768px) 50vw, 100vw"
                     priority={i < 2}
                   />
@@ -270,7 +277,7 @@ export default function ProjectsDetails() {
                 {/* Links / actions */}
                 {
                     p.gallery.length>0?   <div className="mt-5 flex flex-wrap items-center gap-3">
-                      <a href='/awards#expo'>
+                      <a href={p.link? p.link:""}>
                   <button
                     
                     className="rounded-xl border border-gray-300 px-4 py-2 text-sm text-[#1a334c] font-bold hover:shadow transition bg-[#eccc93]"

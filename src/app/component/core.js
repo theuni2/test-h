@@ -10,17 +10,17 @@ export default function CoreValues() {
     {
       title: "Innovation",
       description:
-        "I view every challenge as an opportunity to create something better. Whether I'm designing a rover to deliver supplies to remote communities or leading STEM projects at school, I enjoy transforming “what if” into real solutions.",
+        "Every challenge holds an opportunity to create something better. From designing a rover to deliver vital supplies to remote communities, to leading STEM projects at school, I aim to bring fresh ideas into reality through creativity, technical skills, and persistence.",
     },
     {
       title: "Resilience",
       description:
-        "Complex problems rarely have easy answers. From challenging academic tournaments to balancing leadership roles and sports with schoolwork, I've learned that progress comes from moving forward. This is true even when the way ahead isn't very clear."
+        "I’ve realized that complex problems don’t come with easy answers. Competing in rigorous academic tournaments, managing demanding leadership roles, and especially balancing sports with academics have taught me the value of pushing forward. To keep going."
     },
     {
       title: "Leadership",
       description:
-        "Leadership, to me, is less about being a boss and more about growing together. Whether I'm running physics workshops, mentoring juniors, or organizing competitions, I lead with a combination of empathy, vision, and a team-first approach. Success feels better when everyone improves."
+        "To me, leadership is about inspiring others to grow alongside you. This is something I observed while conducting physics workshops and mentoring younger students."
     }
   ];
 

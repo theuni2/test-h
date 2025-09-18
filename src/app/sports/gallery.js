@@ -30,7 +30,7 @@ export default function Gallery() {
     { src: '/image/cricket/3.jpg', alt: 'Bowler mid-delivery' },
     { src: '/image/cricket/4.JPEG', alt: 'Team celebrating victory' },
     { src: '/image/cricket/5.JPG', alt: 'Cricket trophy moment' },
-    { src: '/image/cricket/6.jpg', alt: 'Cricket trophy moment' },
+    { src: '/image/cricket/6.jpeg', alt: 'Cricket trophy moment' },
     { src: '/image/cricket/7.jpg', alt: 'Cricket trophy moment' },
     { src: '/image/cricket/8.JPG', alt: 'Cricket trophy moment' },
     { src: '/image/cricket/9.jpg', alt: 'Cricket trophy moment' },

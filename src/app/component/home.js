@@ -59,7 +59,7 @@ export default function Home() {
       className="relative h-screen w-full bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('/image/cricket/cricket1.JPG')", // Place image in public folder
+          "url('/image/img_hero.jpg')", // Place image in public folder
       }}
     >
       <Navbar />
