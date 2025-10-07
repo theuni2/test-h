@@ -4,6 +4,7 @@ import Navbar from '../component/nav2'
 import Footer from '../component/footer'
 import ProjectsDetails from './detail'
 import Slider from './slider'
+import MediaCoverage from './media'
 import Gallery from './gallery'
 
 export default function Page() {
@@ -12,6 +13,7 @@ export default function Page() {
         <Navbar/>
          <Slider/>
         <ProjectsDetails/>
+        <MediaCoverage/>
         <Gallery/>
         <Footer/>
 

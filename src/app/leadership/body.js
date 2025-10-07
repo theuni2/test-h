@@ -121,7 +121,7 @@ const ptSerif = PT_Serif({
 
 export default function LeadershipSection() {
   const introPoints = [
-    "Leadership is taking responsibility and moving the team forward.",
+    "Completed a two-week immersive engineering program designed by professionals from multiple disciplines, bridging the gap between school and the workplace;",
     "Plan clearly, organize well, and make tough calls when needed.",
     "Keep things calm, collaborative, and outcome-focused.",
     "Create space where everyone can do their best work.",
@@ -131,49 +131,49 @@ export default function LeadershipSection() {
     {
       title: "Head – Physics & Engineering Society",
       points: [
-        "Led the school’s main STEM society with hands-on workshops.",
-        "Brought in guest speakers and managed cross-year projects.",
-        "Made STEM fun and practical to spark real innovation.",
+        "Oversaw the operation of the school’s main STEM society;",
+        "Planned and delivered workshops, coordinated guest lectures, and managed collaborative group projects.",
+        // "Made STEM fun and practical to spark real innovation.",
       ],
     },
     {
       title: "Co-Founder – Physics in Motion Club",
       points: [
-        "Launched a student-led club focused on motion systems.",
-        "Built projects like rubber-band cars and perfume rockets.",
-        "Handled planning, materials, and multi-year participation.",
+        "Launched a student-led club dedicated to exploring motion systems through hands-on learning;",
+        "Designed and delivered sessions on topics such as aerodynamics and combustion engines;",
+        // "Handled planning, materials, and multi-year participation.",
       ],
     },
     {
       title: "Co-Organizer – DC Physics Olympiad",
       points: [
-        "Owned logistics: scheduling, registrations, and venue flow.",
-        "Kept participants engaged throughout the competition.",
-        "Introduced tiered certifications to recognize achievement.",
+        "Handled logistics and participant engagement for an inter-school physics competition;",
+        "Introduced a tiered certification system to acknowledge varying levels of achievement among participants.",
+        // "Introduced tiered certifications to recognize achievement.",
       ],
     },
     {
       title: "Chief Editor – School Engineering Magazine",
       points: [
-        "Directed editorial strategy for DC Hydraulics.",
-        "Managed end-to-end production and edited every article.",
-        "Contributed original pieces to each issue.",
+        "Directed the editorial strategy for DC Hydraulics, a student-run magazine focused on scientific and engineering breakthroughs. ",
+        "Managed the process from topic selection to final publication. Reviewed all articles for clarity and accuracy, and contributed original pieces to each issue.",
+        // "Contributed original pieces to each issue.",
       ],
     },
     {
       title: "Lower School Liaison",
       points: [
-        "Set up peer tutoring for challenging subjects.",
+        "Led initiatives to provide academic and extracurricular support for younger students. ",
         "Connected juniors with senior clubs and competitions.",
-        "Bridged year groups to make support easy and welcoming.",
+        "Organized activities, acting as a bridge between year groups to make academic help more accessible.",
       ],
     },
     {
       title: "Student Wellbeing Ambassador",
       points: [
-        "Promoted mental health, empathy, and inclusion.",
-        "Supported wellbeing initiatives and awareness campaigns.",
-        "Served as a trusted point of contact for peers.",
+        "Advocated for mental health and academic support within the school community. ",
+        "Acted as a point of contact for peers seeking guidance.",
+        // "Served as a trusted point of contact for peers.",
       ],
     },
   ];
@@ -209,7 +209,8 @@ export default function LeadershipSection() {
 
 
        <p className="mt-4 text-[#1a334c] leading-relaxed">
-        To me, leadership means taking responsibility and helping the team work together. In school projects, clubs, or community work, I’ve learned how to plan, organize, and make difficult decisions. I aim to keep things clear, calm, and cooperative so everyone can do their best.
+        {/* To me, leadership means taking responsibility and helping the team work together. In school projects, clubs, or community work, I’ve learned how to plan, organize, and make difficult decisions. I aim to keep things clear, calm, and cooperative so everyone can do their best. */}
+I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work.
 
        </p>
 

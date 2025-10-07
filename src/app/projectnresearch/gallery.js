@@ -71,7 +71,8 @@ export default function Gallery() {
   const rover = [
     { src: '/image/rover/1.PNG', alt: 'Rover' },
     { src: '/image/rover/2.png', alt: 'Rover' },
-    { src: '/image/rover/3.png', alt: 'Rover' },
+    { src: "/image/rover/C.jpg", alt: 'Rover' },
+    // { src: '/image/rover/3.png', alt: 'Rover' },
     { src: '/image/rover/4.png', alt: 'Rover' },
     { src: '/image/rover/5.png', alt: 'Rover' },
     { src: '/image/rover/6.JPG', alt: 'Rover' },
@@ -107,7 +108,7 @@ export default function Gallery() {
                 alt={img.alt}
                 width={600}
                 height={400}
-                className="object-cover w-full h-64"
+                className="object-cover w-full h-72"
               />
             </motion.div>
           ))}

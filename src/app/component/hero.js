@@ -73,17 +73,19 @@ export default function AboutMe() {
           <h2 className="text-3xl md:text-4xl font-bold mb-3 text-blue-950">About Me</h2>
           
           <p className={`text-[#1a334c] leading-relaxed mb-4 ${ptSerif.className}`}>
-          I’m Humayl Fazal, an A-Level student at Dubai College, pursuing Mathematics, Further Mathematics, Physics, and Chemistry. My passion lies at the intersection of engineering, mathematics, and innovation. I feel this is where curiosity meets practical problem-solving. I’m fascinated by engines, rovers, and machines. If it moves, I want to understand it.
+      I’m Humayl Fazal, an A-Level student at Dubai College, pursuing Mathematics, Further Mathematics, Physics, and Chemistry. My passion lies at the intersection of engineering, mathematics, and innovation. I feel this is where curiosity meets practical problem-solving. I’m fascinated by engines, rovers, and machines. If it moves, I want to understand it.
 That curiosity grew into hands-on experience.
 
           </p>
           
           <p className="text-[#1a334c] leading-relaxed mb-4">
-           As Head of the Physics & Engineering Society and Co-Founder of the Physics in Motion Club, I lead workshops, mentor peers, and organize events that inspire others to explore STEM. My participation in the British Mathematics Olympiad, ISMTF Senior Olympiad, and Stanford Math Challenge helped me learn how to solve problems under pressure.
+
+As Head of the Physics & Engineering Society and Co-Founder of the Physics in Motion Club, I lead workshops, mentor peers, and organize events that inspire others to explore STEM. My participation in the British Mathematics Olympiad, ISMTF Senior Olympiad, and Stanford Math Challenge helped me learn how to solve problems under pressure.          
           </p>
           
           <p className="text-[#1a334c] leading-relaxed mb-4">
-           While showcasing projects at Expo 2020, where I represented my school’s U19 cricket team, and developing innovative engineering solutions, my goal was the same: make an impact through innovation. 
+
+While showcasing projects at Expo 2020, where I represented my school’s U19 cricket team, and developing innovative engineering solutions, my goal was the same: make an impact through innovation. 
 
           </p>
           

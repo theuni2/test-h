@@ -57,6 +57,7 @@ export default function Publications() {
       >
         Publications
       </motion.h2>
+      
 
       <div className="max-w-6xl mx-auto space-y-12">
         {publications.map((pub, index) => (

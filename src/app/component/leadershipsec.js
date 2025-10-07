@@ -14,7 +14,8 @@ export default function LeadershipIdentities() {
   
     {
       title: "👨‍🏫 Mentor ",
-      text: "I’ve guided younger students through academic challenges. The process of helping them discover their own confidence and potential felt incredibly rewarding to me."
+      text: "As Lower School Liaison and Head of the Physics & Engineering Society, I guided students younger to me through their academics and projects. The success was when they discovered their own confidence and potential which they were not even aware of earlier! That felt incredibly rewarding to me. "
+      // text: "I’ve guided younger students through academic challenges. The process of helping them discover their own confidence and potential felt incredibly rewarding to me."
     },
       {
       title: "🤝 Collaborator ",
@@ -24,6 +25,7 @@ export default function LeadershipIdentities() {
     {
       title: "🧩 Problem Solver",
       text: "I see problems as opportunities to apply logic, creativity, and persistence. Observed this while diagnosing engineering issues during internships! Once I noticed that tackling abstract math problems can be approached with actual curiosity, focusing on the process as much as the answer."
+      // text: "I see problems as opportunities to apply logic, creativity, and persistence. Observed this while diagnosing engineering issues during internships! Once I noticed that tackling abstract math problems can be approached with actual curiosity, focusing on the process as much as the answer."
       // text: "I view problems as puzzles rather than roadblocks. Whether I'm fixing engineering issues during internships or solving abstract math challenges, I approach obstacles with curiosity, creativity, and a determination to keep going until I find the solution."
       // text: "I see problems less as roadblocks and more as puzzles. From debugging engineering issues in internships to cracking abstract math challenges, I tackle obstacles with curiosity, creativity, and the persistence to push through until it clicks."
     },

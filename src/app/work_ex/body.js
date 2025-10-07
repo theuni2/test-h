@@ -230,9 +230,9 @@ export default function Body() {
       companyDetails:
         "InvestIN offers immersive career experiences led by industry professionals, designed to give students real-world insight into engineering. The Young Engineer Summer Experience provides hands-on projects across mechanical, civil, electrical, and aerospace fields, alongside innovation challenges and professional skills development.",
       description: [
-        "Hands-on projects: aerofoil design, fly-by-wire panel, robotics, AI, dismantling a petrol engine.",
-        "Field exposure: airfield visit, climate studies at Thames Barrier, networking at UCL.",
-        "Completed 65 hours of technical + professional learning including psychometric testing."
+        "Completed a two-week immersive engineering program designed by professionals from multiple disciplines, bridging the gap between school and the workplace;",
+        "Gained experience in robotics and machine learning through designing an AI creation;",
+        "Attended a private networking session with engineers at University College London and completed psychometric and personality testing, receiving coaching on the key soft skills needed to excel in engineering. The experience involved 65 hours of contact time."
       ],
       photos: false,
     },
@@ -243,9 +243,13 @@ export default function Body() {
       companyDetails:
         "2Excel Engineering specializes in aircraft maintenance and modification, Turnpoint provides aviation training and solutions, and Lasham Gliding is one of Europe’s largest gliding centers. Together, they offer immersive industry exposure across aircraft systems, engineering practices, and real-world aviation operations.",
       description: [
-        "Explored aviation engineering and gliding operations.",
-        "Learned about aircraft systems, glider mechanics, and maintenance.",
-        "Gained practical exposure through immersive internship sessions."
+        // "Explored aviation engineering and gliding operations.",
+        // "Learned about aircraft systems, glider mechanics, and maintenance.",
+        // "Gained practical exposure through immersive internship sessions."
+        "This was an immersive engineering internship in partnership with Turnpoint, 2Excel Engineering, and Lasham Gliding.",
+        "Gained hands-on exposure to aviation engineering and gliding operations, working directly with industry professionals.",
+        "Activities included exploring aircraft systems, understanding the mechanics of gliders, and learning practical maintenance techniques.",
+
       ],
       photos: false,
     },
@@ -256,9 +260,12 @@ export default function Body() {
       companyDetails:
         "TouchPoint (Pvt.) Limited is Pakistan’s leading provider of self-service banking and financial technology, delivering secure and scalable digital solutions. Since 2007, it has enabled branch transformation through ATMs, cash and cheque deposit machines, and digital platforms. Today, TouchPoint supports thousands of terminals across 600+ cities, helping banks provide 24/7 real-time services nationwide.",
       description: [
-        "Worked on Cash Deposit Machine product design and usability.",
-        "Assisted in development and testing of software components.",
-        "Engaged in debugging and validation tasks."
+        // "Worked on Cash Deposit Machine product design and usability.",
+        // "Assisted in development and testing of software components.",
+        // "Engaged in debugging and validation tasks."
+        "Completed a two-week internship in the Product Design and Development function at TouchPoint. Worked closely with the team on key initiatives, including participating in the design of a Cash Deposit Machine.",
+        "Assisted in the development and testing of software components, engaging in hands-on activities across the product lifecycle such as debugging and validation.",
+        
       ],
       photos: false,
     },
@@ -269,9 +276,9 @@ export default function Body() {
       companyDetails:
         "Diebold Nixdorf is a global leader in financial and retail technology, helping automate, digitize, and transform the way people bank and shop. With 160+ years of innovation, it delivers integrated hardware, software, and services—such as ATMs, point-of-sale systems, and branch solutions—to clients in over 100 countries.",
       description: [
-        "Contributed to ATM projects integrating hardware and software.",
-        "Supported testing, troubleshooting, and smooth system integration.",
-        "Collaborated with engineering teams to improve solutions."
+        "Gained exposure to the corporate environment and learned how ATM projects integrate both hardware and software components. ",
+        "Collaborated with cross-functional teams to identify ways to improve ATM solutions; testing and troubleshooting to ensure smooth hardware and software integration for ATM systems.",
+        // "Collaborated with engineering teams to improve solutions."
       ],
       photos: false,
     },
@@ -282,9 +289,13 @@ export default function Body() {
       companyDetails:
         "Sarsan Aviation Academy (Dubai) provides GCAA-approved Aircraft Maintenance Engineering training in CAT A1, B1.1, and B2 programs. With experienced instructors and hands-on access to real aircraft and engines, it equips students with the practical skills needed for successful aviation careers.",
       description: [
-        "Studied flight theory including Navier–Stokes equation and aircraft/rocket design.",
-        "Worked on aircraft landing gear components in workshop.",
-        "Explored Soloviev D-30 turbofan engine design and structure."
+        // "Studied flight theory including Navier–Stokes equation and aircraft/rocket design.",
+        // "Worked on aircraft landing gear components in workshop.",
+        // "Explored Soloviev D-30 turbofan engine design and structure."
+        "Studied flight theory, including the Navier–Stokes equation for fluid dynamics, and the reasoning behind the structural design of aircraft and rockets. ",
+        "Worked in a workshop to create parts for the repair of an aircraft’s landing gear.",
+        "Gained hands-on experience with components of the Soloviev D-30, one of the most powerful turbofan engines, learning about its structure and operation.",
+
       ],
       photos: false,
     },
@@ -295,9 +306,9 @@ export default function Body() {
       companyDetails:
         "Eddyfi Technologies is a global leader in non-destructive testing (NDT), providing advanced instruments, sensors, software, and robotic systems. Serving industries from aerospace to energy, it helps organizations improve safety, productivity, and asset reliability worldwide.",
       description: [
-        "Created aerodynamic car models with CAD and robotic simulations.",
-        "Worked on renewable design concepts with exposure to advanced robotics.",
-        "Participated in guest lectures and career pathway discussions."
+        "Participated in a six-week engineer shadowing program delivered in collaboration with Eddyfi Robotics ",
+        "Live sessions that I attended  covered multiple engineering fields, including robotics, aerospace, mechanical, electrical, and sustainable design.",
+        "Projects have included creating aerodynamic car models using CAD tools, designing and programming robotic systems in simulation software, and exploring renewable design concepts."
       ],
       photos: false,
     },

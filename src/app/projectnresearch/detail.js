@@ -89,7 +89,8 @@ export default function ProjectsDetails() {
       gallery: [
         "/image/rover/A.PNG",
         "/image/rover/B.png",
-        "/image/rover/C.jpg",
+        // "/image/rover/C.jpg",
+        "/image/rover/3.png"
       ],
       blurb:
         "Why this project: To construct a vehicle that can reach communities that lack road access or healthcare so that both medical staff and necessary supplies can get to the areas that need them the most.",
@@ -103,7 +104,7 @@ export default function ProjectsDetails() {
         "Impact: Made it possible to take medical attention, electricity, hygiene, and food to the less favored areas in a quicker way."
       ],
       chips: ["Robotics", "Rapid Prototyping", "Humanitarian Tech"],
-      note: "Keep space for photos of the Model (Sketches, Model Drawing, 3D Printed Model).",
+      // note: "Keep space for photos of the Model (Sketches, Model Drawing, 3D Printed Model).",
       link:'#mrover'
     },
     {
@@ -116,14 +117,24 @@ export default function ProjectsDetails() {
         "/image/sea_rover/C.JPG",
         // "/projects/fasal-bot/expo.jpg",
       ],
-      blurb:
-        "Why this project: To fight water pollution by extracting floating wastes from oceans and rivers in a way that saves energy.",
+      blurb:"Why this project: To fight water pollution by extracting floating wastes from oceans and rivers in a way that saves energy.",
+      // body: [
+      //   "We chose to address water pollution, focusing on how to remove floating waste from oceans and waterways.",
+      //   "Made a small-sized rover with a mechanical system to gather floating waste and purify water at the same time.",
+      //   "Worked out a 3D model, energy-saving and low-maintenance were the main optimizations.",
+      //   "He presented the prototype at the Sustainability Pavilion during Expo 2020 to an international audience.",
+      //   "Impact: Encouraged the public to consider sustainable engineering solutions that can be adapted for ocean sustainability."
+      // ],
       body: [
-        "Created during the Expo 2020 Napkin Challenge and went up to the Young Innovator Finalist stage.",
-        "Made a small-sized rover with a mechanical system to gather floating waste and purify water at the same time.",
-        "Worked out a 3D model, energy-saving and low-maintenance were the main optimizations.",
-        "He presented the prototype at the Sustainability Pavilion during Expo 2020 to an international audience.",
+                "This project began during the Expo 2020 Napkin Challenge, where my team and I were asked to sketch an innovation on a tissue (napkin) that could solve a real-world problem.",
+
+        "We chose to address water pollution, focusing on how to remove floating waste from oceans and waterways.",
+        "Our concept advanced to the Young Innovator Finalist stage, and we signed a contract with Expo 2020 to develop it further. The design evolved into a working 3D prototype of a small-scale rover that uses a mechanical collection system to channel debris into a storage compartment while allowing water to flow through.",
+        "The aim was to create a lightweight, energy-efficient, and easy-to-maintain solution.",
+        // "He presented the prototype at the Sustainability Pavilion during Expo 2020 to an international audience.",
+        "My biggest takeaway from this project was learning the process of turning an idea into a tangible solution through teamwork, persistence, and technical skill.",
         "Impact: Encouraged the public to consider sustainable engineering solutions that can be adapted for ocean sustainability."
+
       ],
       chips: ["Sustainability", "Mechanical Design", "Team Project"],
       linkLabel: "Model photos & sketches",
@@ -139,14 +150,16 @@ export default function ProjectsDetails() {
       gallery: [
        
       ],
-      blurb:
-        "Why this project: To investigate whether AI could aid doctors in making quicker and more accurate decisions in the case of dangerous diseases.",
+      blurb:"Why this project: To investigate whether AI could aid doctors in making quicker and more accurate decisions in the case of dangerous diseases.",
+        // "Why this project: To investigate whether AI could aid doctors in making quicker and more accurate decisions in the case of dangerous diseases.",
         // "Trained a model on chest X-rays to identify pneumonia; explored privacy, bias, and clinical reliability.",
       body: [
-        "Gathered and cleansed medical imaging datasets (chest X-rays).",
-        "Developed and trained a deep learning model by using Python to recognize pneumonia in chest X-rays.",
-        "On the one hand, AI testing and performance measurement were held; on the other, the medical staff was informed about accuracy, fairness, and trustworthiness of the AI system in their clinical decision-making process.",
-        "Looking into the issue of AI in medicine, the group considered privacy protection and common use, among other things.",
+                "This project began with a simple question: how can technology help doctors make faster and more accurate diagnoses? I chose pneumonia detection because of its global impact and the importance of early treatment.",
+
+        "Working with medical imaging datasets, I trained an AI model to identify signs of pneumonia from X-ray scans. ",
+        "It involved cleaning and organizing large sets of images, coding the model in Python, and testing its accuracy. ",
+        "Along the way, I came across the ethical questions around using AI in healthcare, including patient privacy and reliability.",
+        "The goal was not only to make the model work, but to understand the potential and limitations of AI in real medical settings. ",
         "Impact: Shown the potential of AI to speed up diagnostic processes while simultaneously exposing its current limits."
       ],
       chips: ["Python", "Deep Learning", "Healthcare AI"],
@@ -162,10 +175,14 @@ export default function ProjectsDetails() {
       blurb:
         "Why this project: This project was made to adopt the real-world application of supervised, unsupervised, and reinforcement learning to tackle practical problems by deepening AI knowledge.",
       body: [
-        "Went through a two-week rigorous training program with Stanford tutors.",
-        "Python was the programming language used to implement the algorithms, in which linear algebra, calculus, and optimization skills were applied.",
-        "The author created a neural-network model that predicts the breakdown of machines by using real data.",
-        "Investigated the presence of bias in AI systems and tried to find ways to reduce it.",
+        "Completed a two-week intensive course on artificial intelligence with Stanford University.",
+        // "Python was the programming language used to implement the algorithms, in which linear algebra, calculus, and optimization skills were applied.",
+        // "The author created a neural-network model that predicts the breakdown of machines by using real data.",
+        // "Investigated the presence of bias in AI systems and tried to find ways to reduce it.",
+        "Implemented algorithms in Python using both educational and real-world datasets, while applying mathematical concepts from linear algebra, statistics, calculus, and optimization.",
+        "Explored the impact of bias in AI systems and strategies to mitigate it. ",
+        "The final project modelled machine failure using neural networks, an original approach selected independently.",
+        "Completed all assignments in a program designed to challenge even university-level students. This not only built my technical skills, but also the understanding of how we design AI systems that are safe, efficient, and ethical.",
         "Impact: Improved knowledge of theory, practical application skills, and ethical issues in AI-related fields."
 
       ],
@@ -182,11 +199,15 @@ export default function ProjectsDetails() {
       ],
       blurb: "Why this project: To delve into the effects that airfoil design had on the performance of aircraft, connecting physics, math, and engineering.",
   body: [
-    "Explored airfoil shape and its effects on lift and drag for subsonic vs supersonic conditions.",
-    "Did mathematical modeling and aerodynamic simulations to illustrate differences in flight regimes.",
-    "Started working on a research paper at the university level by applying core research and technical writing competences.",
-    "Improved abilities in independent study, data interpretation, and research-related communication.",
-    "The impact: The project provided ideas about the issues of design that the aerospace field facing which help the readiness of the advanced study by giving the hints based on this research."
+    // "Explored airfoil shape and its effects on lift and drag for subsonic vs supersonic conditions.",
+    // "Did mathematical modeling and aerodynamic simulations to illustrate differences in flight regimes.",
+    // "Started working on a research paper at the university level by applying core research and technical writing competences.",
+    // "Improved abilities in independent study, data interpretation, and research-related communication.",
+    "Writing a university-level dissertation titled “To what extent does varying airfoil shapes influence lift and drag in subsonic and supersonic aircraft?”",
+    "This project involved an in-depth exploration of aerodynamic principles, focusing on how variations in airfoil geometry affect performance across different flight regimes. ",
+    "Required  mathematical modeling, aerodynamic simulations, and comparative analysis of subsonic versus supersonic conditions together.",
+"Other than the theoretical part, the dissertation also had technical writing, independent inquiry, and data analysis while giving important insights into the design trade-offs faced by aerospace engineers.",
+    "Impact: The project provided ideas about the issues of design that the aerospace field facing which help the readiness of the advanced study by giving the hints based on this research."
   ],
   chips: ["Aerodynamics", "Applied Physics", "Research Writing"],    },
   ];

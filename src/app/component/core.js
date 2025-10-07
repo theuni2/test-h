@@ -10,17 +10,19 @@ export default function CoreValues() {
     {
       title: "Innovation",
       description:
-        "Every challenge holds an opportunity to create something better. From designing a rover to deliver vital supplies to remote communities, to leading STEM projects at school, I aim to bring fresh ideas into reality through creativity, technical skills, and persistence.",
+        "I love working at the juncture of engineering, mathematics, and imaginative problem-solving. The process of creating prototypes is prone to failure, but I guess that’s a learning opportunity! The more difficulty I face with the prototypes, the more driven I feel to find solutions. It makes me learn a lot about STEM overall, giving me innovative ideas. I was able to lead STEM projects in school with this approach!",
     },
     {
       title: "Resilience",
       description:
         "I’ve realized that complex problems don’t come with easy answers. Competing in rigorous academic tournaments, managing demanding leadership roles, and especially balancing sports with academics have taught me the value of pushing forward. To keep going."
+        // "I’ve realized that complex problems don’t come with easy answers. Competing in rigorous academic tournaments, managing demanding leadership roles, and especially balancing sports with academics have taught me the value of pushing forward. To keep going."
     },
     {
       title: "Leadership",
       description:
-        "To me, leadership is about inspiring others to grow alongside you. This is something I observed while conducting physics workshops and mentoring younger students."
+        "Helping out with physics workshops and mentoring younger students made me realize that being a leader is really about helping everyone grow alongside each other. When I was Head of the Physics & Engineering Society and helped start Physics in Motion, I got to work with my friends, run workshops, and put together events like the Dubai College Physics Olympiad. Playing cricket and water polo taught me the same thing: leadership is about letting the team work together so we can get more done than we ever could alone."
+        // "To me, leadership is about inspiring others to grow alongside you. This is something I observed while conducting physics workshops and mentoring younger students."
     }
   ];
 
