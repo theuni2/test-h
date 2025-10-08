@@ -13,7 +13,7 @@ export default function Page() {
         <Navbar/>
          <Slider/>
         <ProjectsDetails/>
-        <MediaCoverage/>
+        {/* <MediaCoverage/> */}
         <Gallery/>
         <Footer/>
 
