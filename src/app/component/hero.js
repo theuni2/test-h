@@ -85,8 +85,8 @@ As Head of the Physics & Engineering Society and Co-Founder of the Physics in Mo
           
           <p className="text-[#1a334c] leading-relaxed mb-4">
 
-While showcasing projects at Expo 2020, where I represented my school’s U19 cricket team, and developing innovative engineering solutions, my goal was the same: make an impact through innovation. 
-
+{/* While showcasing projects at Expo 2020, where I represented my school’s U19 cricket team, and developing innovative engineering solutions, my goal was the same: make an impact through innovation.  */}
+Whether it’s showcasing projects at Expo 2020, representing my school’s U19 cricket team, or developing innovative engineering solutions, I’m driven by the same goal: to make an impact through innovation, collaboration, and perseverance.
           </p>
           
           {/* <p className="text-[#1a334c] leading-relaxed">

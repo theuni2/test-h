@@ -16,8 +16,9 @@ export default function Publications() {
   const publications = [
     {
       title: "Research Paper – Mobility Rover for Remote Communities",
-      description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
       // description:"Currently preparing a research paper on the design and development of a mobility rover aimed at delivering medical support and essential supplies to remote areas. Developed under guidance from an MIT PhD graduate, it will be submitted to academic journals upon completion. The paper covers engineering design principles, materials selection, terrain adaptability, and prototype testing, as well as the humanitarian applications of the rover.",
+      description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. This is going to be published in the upcoming issue of the journal, Curieux Academic Journal. With guidance from an MIT PhD graduate, I’ve looked into everything from engineering design and materials selection to terrain adaptability and prototype testing. I also explored how this technology could create a real humanitarian impact.",
+      // description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
      
       link: null,
       image: "/image/rover.png", // Replace with actual path
@@ -63,12 +64,14 @@ export default function Publications() {
         {publications.map((pub, index) => (
           <motion.div
             key={index}
-            className="flex flex-col md:flex-row bg-[#011e35] shadow-lg rounded-lg overflow-hidden border border-gray-200"
+            className="flex flex-col md:flex-row bg-[#011e35] shadow-lg rounded-lg overflow-hidden border-t-4 border-[#eccc93]"
             initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
+                        {/* <div className="h-1 w-full bg-gradient-to-r from-[#eccc93] via-[#eccc96] to-[#eccc99]" /> */}
+
             <div className="md:w-1/3">
               <img
                 src={pub.image}

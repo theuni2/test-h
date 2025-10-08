@@ -168,6 +168,8 @@ export default function Navbar() {
     { label: "Sports", href: "/sports" },
     { label: "Work Experience", href: "/work_ex" },
     { label: "Awards & Achievements", href: "/awards" },
+    { label: "Student Wellbeing Ambassador", href: "https://brightmindme.com/" },
+    // { label: "Awards & Achievements", href: "/awards" },
   ];
 
   return (

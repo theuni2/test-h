@@ -138,13 +138,22 @@ export default function SportsSection() {
           {sports.map((sport, index) => (
             <motion.div
               key={sport.title}
-              className="border border-gray-200 p-6 rounded-lg hover:shadow-2xl transition-all duration-300 bg-[#011e35]"
+              className="border-t-4 border-[#eccc93] p-6 rounded-lg hover:shadow-2xl transition-all duration-300 bg-[#011e35]"
               variants={cardVariants}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               custom={index}
             >
+            {/* <motion.div
+              key={sport.title}
+              className="border border-gray-200 p-6 rounded-lg hover:shadow-2xl transition-all duration-300 bg-[#011e35]"
+              variants={cardVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              custom={index}
+            > */}
               <h3 className="text-2xl font-semibold text-[#d6d6d6] text-center">
                 {sport.title}
               </h3>

@@ -78,6 +78,7 @@ function GalleryModal({ open, onClose, images, startIndex = 0, caption }) {
   );
 }
 
+
 // --- Main section ---
 export default function ProjectsDetails() {
   // Put your real images inside /public/projects/... and update paths below.
@@ -262,7 +263,7 @@ export default function ProjectsDetails() {
               className={`grid items-stretch gap-6 md:gap-10 md:grid-cols-2`}
             >
               {/* Alternate image/text sides */}
-              <div className={`${i % 2 === 0 ? "" : "md:order-2"}`}>
+              {/* <div className={`${i % 2 === 0 ? "" : "md:order-2"}`}>
                 <div className="group relative h-64 sm:h-80 md:h-full overflow-hidden rounded-lg shadow-lg">
                   <Image
                     src={p.cover}
@@ -279,7 +280,48 @@ export default function ProjectsDetails() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+{/* <div className={`${i % 2 === 0 ? "" : "md:order-2"}`}>
+  <div className="group relative overflow-hidden my-auto rounded-lg shadow-lg w-full h-[350px] sm:h-[420px] md:h-[450px] bg-gray-100">
+    <Image
+      src={p.cover}
+      alt={p.title}
+      fill
+      className="object-contain p-2 rounded-2xl transition-transform duration-500 group-hover:scale-105"
+      sizes="(min-width: 768px) 50vw, 100vw"
+      priority={i < 2}
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+    <div className="absolute bottom-3 left-3 text-white">
+      <span className="inline-block bg-black/30 rounded-full px-3 py-1 text-xs backdrop-blur">
+        {p.chips.join(" • ")}
+      </span>
+    </div>
+  </div>
+</div> */}
+
+<div
+  className={`${i % 2 === 0 ? "" : "md:order-2"} flex items-center justify-center`}
+>
+  <div className="group relative flex items-center justify-center overflow-hidden my-auto rounded-2xl shadow-lg w-full h-[350px] sm:h-[420px] md:h-[460px] bg-gray-100">
+    <Image
+      src={p.cover}
+      alt={p.title}
+      fill
+      className="object-contain p-3 rounded-2xl transition-transform duration-500 group-hover:scale-105"
+      sizes="(min-width: 768px) 50vw, 100vw"
+      priority={i < 2}
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+    <div className="absolute bottom-3 left-3 text-white">
+      <span className="inline-block bg-black/30 rounded-full px-3 py-1 text-xs backdrop-blur">
+        {p.chips.join(" • ")}
+      </span>
+    </div>
+  </div>
+</div>
+
 
               <div className="flex flex-col">
                 <h3 className="text-2xl font-bold text-[#5a5a5a]">{p.title}</h3>
@@ -377,6 +419,9 @@ export default function ProjectsDetails() {
             </motion.article>
           ))}
         </div>
+
+
+
       </div>
 
       {/* Lightbox */}

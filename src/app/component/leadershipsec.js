@@ -47,7 +47,7 @@ export default function LeadershipIdentities() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: idx * 0.2 }}
             viewport={{ once: true }}
-            className="bg-[#011e35] p-8 flex flex-col justify-start rounded-lg shadow-lg h-full hover:shadow-xl transition-shadow duration-300"
+            className="bg-[#011e35] p-8 flex flex-col border-t-4 border-[#eccc93] justify-start rounded-lg shadow-lg h-full hover:shadow-xl transition-shadow duration-300"
           >
             <h3 className={`text-xl font-bold text-[#d6d6d6] mb-4 mx-auto  ${ptSerif.className} `}>{item.title}</h3>
             <p className={`text-[#d6d6d6]  leading-relaxed text-center ${ptSerif.className} `}>{item.text}</p>

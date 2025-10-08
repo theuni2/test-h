@@ -175,6 +175,7 @@ export default function LeadershipSection() {
         "Acted as a point of contact for peers seeking guidance.",
         // "Served as a trusted point of contact for peers.",
       ],
+      link:"https://brightmindme.com/",
     },
   ];
 
@@ -227,10 +228,10 @@ I’ve taken on roles that require planning, coordination, and decision-making. 
           <motion.article
             key={role.title}
             variants={item}
-            className="group relative overflow-hidden rounded-lg bg-[#011e35] border border-gray-200 shadow-sm hover:shadow-xl transition-shadow"
+            className="group relative overflow-hidden rounded-lg bg-[#011e35] border-t-4 border-[#eccc93] shadow-sm hover:shadow-xl transition-shadow"
           >
             {/* Animated accent bar */}
-            <div className="h-1 w-full bg-gradient-to-r from-[#eccc93] via-[#eccc96] to-[#eccc99]" />
+            {/* <div className="h-1 w-full bg-gradient-to-r from-[#eccc93] via-[#eccc96] to-[#eccc99]" /> */}
 
             <div className="p-6">
               <h3
@@ -244,6 +245,17 @@ I’ve taken on roles that require planning, coordination, and decision-making. 
                   <li key={p}>{p}</li>
                 ))}
               </ul>
+              <div className="mt-4">
+              {role.link && (
+                
+                <a href={role.link} target="_blank" rel="noopener noreferrer" className="text-[#eccc93] underline font-semibold">
+                  
+                  Vist Website 
+                  
+                  
+                  </a>
+              )}
+            </div>
             </div>
 
             {/* Subtle hover glow */}

@@ -21,9 +21,11 @@ export default function CoreValues() {
     {
       title: "Leadership",
       description:
-        "Helping out with physics workshops and mentoring younger students made me realize that being a leader is really about helping everyone grow alongside each other. When I was Head of the Physics & Engineering Society and helped start Physics in Motion, I got to work with my friends, run workshops, and put together events like the Dubai College Physics Olympiad. Playing cricket and water polo taught me the same thing: leadership is about letting the team work together so we can get more done than we ever could alone."
+        // "Helping out with physics workshops and mentoring younger students made me realize that being a leader is really about helping everyone grow alongside each other. When I was Head of the Physics & Engineering Society and helped start Physics in Motion, I got to work with my friends, run workshops, and put together events like the Dubai College Physics Olympiad. Playing cricket and water polo taught me the same thing: leadership is about letting the team work together so we can get more done than we ever could alone."
         // "To me, leadership is about inspiring others to grow alongside you. This is something I observed while conducting physics workshops and mentoring younger students."
-    }
+    "Helping out with physics workshops and mentoring younger students made me realize that being a leader is really about helping everyone grow alongside each other. When I was Head of the Physics & Engineering Society and helped start Physics in Motion, I got to work with my friends, run workshops, and put together events like the Dubai College Physics Olympiad. ",
+    
+      }
   ];
 
   return (
@@ -39,7 +41,7 @@ export default function CoreValues() {
   {values.map((value, index) => (
     <div
       key={index}
-      className="bg-[#011e35] p-8 flex flex-col justify-start rounded-lg shadow-lg h-full hover:shadow-xl transition-shadow duration-300"
+      className="bg-[#011e35] p-8 flex border-t-4 border-[#eccc93] flex-col justify-start rounded-lg shadow-lg h-full hover:shadow-xl transition-shadow duration-300"
     >
       <h3 className={`text-xl font-bold text-[#d6d6d6] mb-4 mx-auto ${ptSerif.className}`}>{value.title}</h3>
       <p className={`text-[#d6d6d6] leading-relaxed text-center  ${ptSerif.className}`}>{value.description}</p>
