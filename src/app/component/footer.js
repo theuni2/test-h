@@ -107,7 +107,7 @@ export default function Footer() {
           </span>
         </Link>
 
-        {/* Media Coverage (Minimal) */}
+        {/* Media Coverage (Minimal)
     <div className="flex flex-col items-center text-center text-sm sm:mb-0 mb-4">
   <a
     href={mediaArticles[0].link}
@@ -119,7 +119,7 @@ export default function Footer() {
 
     <span className="mb-1  text-gray-700">{mediaArticles[0].title}</span> <br/>
   </a>
-</div>
+</div> */}
 
 
         {/* Social Icons */}

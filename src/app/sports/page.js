@@ -7,6 +7,7 @@ import Hero from './hero';
 import Work_ex from '../work_ex/work_ex';
 import SportsSection from './sports';
 import Gallery from './gallery';
+import MediaCoverage from '../projectnresearch/media';
 
 export default function Page() {
   return (
@@ -17,6 +18,7 @@ export default function Page() {
 {/* <Work_ex/>  */}
 <SportsSection/>
 <Gallery/>
+<MediaCoverage/>
 <Footer/>
     </div>
   )

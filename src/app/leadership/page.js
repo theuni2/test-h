@@ -5,6 +5,7 @@ import Navbar from '../component/nav2';
 import Hero from '../component/hero';
 import Leadership from './body';
 import Footer from '../component/footer';
+import MediaCoverage from '../projectnresearch/media';
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
         {/* <Hero/> */}
         <Leadership/>
         {/* <Section_rl/> */}
+        <MediaCoverage/>
         <Footer/>
     </div>
   )

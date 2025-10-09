@@ -5,6 +5,7 @@ import Footer from '../component/footer';
 // import Work_ex from './work_ex';
 import Body from './body';
 import Gallery from './gallery';
+import MediaCoverage from '../projectnresearch/media';
 
 
 export default function Page() {
@@ -15,6 +16,7 @@ export default function Page() {
 {/* <Work_ex/> */}
 <Body/>
 <Gallery/>
+<MediaCoverage/>
 <Footer/>
 
     </div>

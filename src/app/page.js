@@ -5,6 +5,7 @@ import Home_comp from './component/home';
 import AboutMe from './component/hero';
 import CoreValues from "./component/core";
 import LeadershipIdentities from "./component/leadershipsec";
+import MediaCoverage from "./projectnresearch/media";
 // import Hero from "./component/hero";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
 <AboutMe/>
 <CoreValues/>
 <LeadershipIdentities/>
+<MediaCoverage/>
 <Footer/>
     </div>
   );
