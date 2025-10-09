@@ -211,6 +211,36 @@ export default function ProjectsDetails() {
     "Impact: The project provided ideas about the issues of design that the aerospace field facing which help the readiness of the advanced study by giving the hints based on this research."
   ],
   chips: ["Aerodynamics", "Applied Physics", "Research Writing"],    },
+    {
+      id: "Propulsion Systems",
+      title: "Alternative Propulsion Systems for Short-Haul Jets",
+      cover: "/image/sus1.png",
+      gallery: [
+        // "/projects/epq-euler/cover.jpg",
+        // "/projects/epq-euler/math.jpg",
+        // "/projects/epq-euler/modes.jpg",
+      ],
+      blurb: "Why this project: To evaluate alternative propulsion technologies that can reduce the environmental impact and operational costs of short-haul flights and aviation operations.",
+  body: [
+    // "Explored airfoil shape and its effects on lift and drag for subsonic vs supersonic conditions.",
+    // "Did mathematical modeling and aerodynamic simulations to illustrate differences in flight regimes.",
+    // "Started working on a research paper at the university level by applying core research and technical writing competences.",
+    // "Improved abilities in independent study, data interpretation, and research-related communication.",
+    "Researched various propulsion options including sustainable aviation fuel (SAF)electric engines and hydrogen-based jet engines",
+    "Focused  on their infrastructure needs and technological development costs.",
+    "In this, I tried to analyze maturity levels of these propulsion systems, to determine how feasible were they for adoption, emphasizing support service requirements and capital investments.",
+"Also, tried to analyze the operational suitability of these technologies for both short and long-haul flights, considering current limitations such as electric engine range and ongoing hydrogen engine development.",
+ "Impact: My observations in this research paper make a strong case for adopting SAF as a near-term alternative to conventional jet engines, supporting efforts to transition aviation towards more sustainable, cost-effective fuel options with relatively low infrastructural changes."
+],
+  chips: ["SAF", "Hydrogen Engines", "Electric Propulsion "], 
+  
+
+
+
+  
+  // chips: ["Aerodynamics", "Applied Physics", "Research Writing"],    
+
+},
   ];
 
   // Modal state

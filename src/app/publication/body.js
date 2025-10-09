@@ -17,7 +17,7 @@ export default function Publications() {
     {
       title: "Research Paper – Mobility Rover for Remote Communities",
       // description:"Currently preparing a research paper on the design and development of a mobility rover aimed at delivering medical support and essential supplies to remote areas. Developed under guidance from an MIT PhD graduate, it will be submitted to academic journals upon completion. The paper covers engineering design principles, materials selection, terrain adaptability, and prototype testing, as well as the humanitarian applications of the rover.",
-      description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. This is going to be published in the upcoming issue of the journal, Curieux Academic Journal. With guidance from an MIT PhD graduate, I’ve looked into everything from engineering design and materials selection to terrain adaptability and prototype testing. I also explored how this technology could create a real humanitarian impact.",
+      description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. This is going to be published in the upcoming issue of the Curieux Academic Journal. With guidance from an MIT PhD graduate, I’ve looked into everything from engineering design and materials selection to terrain adaptability and prototype testing. I also explored how this technology could create a real humanitarian impact.",
       // description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
      
       link: null,
@@ -44,6 +44,15 @@ export default function Publications() {
         // { label: "Volume 2 (PDF)", url: "https://drive.google.com/file/d/1UlQfRW0oqtXw4BRz12g6B5TA3YORJ03Q/view?usp=drive_link" },
       ],
       image: "/image/dchydraulics.png", // Replace with actual path
+    },
+      {
+      title: "Flight Forward – Evaluating Sustainable Propulsion Systems for Jet Aviation",
+      // description:"Currently preparing a research paper on the design and development of a mobility rover aimed at delivering medical support and essential supplies to remote areas. Developed under guidance from an MIT PhD graduate, it will be submitted to academic journals upon completion. The paper covers engineering design principles, materials selection, terrain adaptability, and prototype testing, as well as the humanitarian applications of the rover.",
+      description:"I worked on a research paper that evaluates alternative propulsion systems for jets, focusing on their deployment in short-haul flights and aviation operations. My findings show that while all alternatives require some support systems, sustainable aviation fuel (SAF) demands significantly less infrastructural overhaul compared to electric or hydrogen jet engines.",
+      // description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
+     
+      link: null,
+      image: "/image/sus1.png", // Replace with actual path
     },
   ];
 
