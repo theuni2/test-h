@@ -164,7 +164,7 @@ export default function MediaCoverage() {
     </div>
 
     {/* Button (centered, not absolute now) */}
-    <div className="mt-8">
+    <div className="">
       <a
         href={article.link}
         target="_blank"

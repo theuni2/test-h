@@ -342,39 +342,41 @@ export default function Body() {
         >
           Work Experience
         </motion.h2>
-        <div className="grid gap-10 md:grid-cols-2">
-          {experiences.map((exp, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              className="bg-[#011e35] rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4  border-[#eccc93]"
-            >
-                          {/* <div className="h-1 w-full bg-gradient-to-r from-[#eccc93] via-[#eccc96] to-[#eccc99]" /> */}
+     <div className="grid gap-10 md:grid-cols-2">
+  {experiences.map((exp, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      viewport={{ once: true }}
+      className={`bg-[#011e35] rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#eccc93]
+        ${index === experiences.length - 1 ? "md:col-span-2 md:mx-auto md:w-1/2" : ""}`}
+    >
+      <div className="flex items-center gap-3 mb-2">
+        <img src={exp.logo} alt={exp.title} className="w-14 h-14 object-contain border-2 border-gray-50" />
+        <h3 className="text-xl font-semibold text-[#d6d6d6]">{exp.title}</h3>
+      </div>
 
-              <div className="flex items-center gap-3 mb-2">
-                <img src={exp.logo} alt={exp.title} className="w-14 h-14 object-contain border-2 border-gray-50" />
-                <h3 className="text-xl font-semibold text-[#d6d6d6]">{exp.title}</h3>
-              </div>
-              {/* <p className="text-sm mb-3 text-black">{exp.date}</p> */}
-              {exp.companyDetails && (
-                <p className="text-[#a0aec0] text-sm italic mb-3">{exp.companyDetails}</p>
-              )}
-              <ul className="list-disc pl-5 text-[#d6d6d6] mb-3 space-y-2">
-                {exp.description.map((point, i) => (
-                  <li key={i}>{point}</li>
-                ))}
-              </ul>
-              {exp.photos && (
-                <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-gray-400">
-                  [Add Photos Here]
-                </div>
-              )}
-            </motion.div>
-          ))}
+      {exp.companyDetails && (
+        <p className="text-[#a0aec0] text-sm italic mb-3">{exp.companyDetails}</p>
+      )}
+
+      <ul className="list-disc pl-5 text-[#d6d6d6] mb-3 space-y-2">
+        {exp.description.map((point, i) => (
+          <li key={i}>{point}</li>
+        ))}
+      </ul>
+
+      {exp.photos && (
+        <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-gray-400">
+          [Add Photos Here]
         </div>
+      )}
+    </motion.div>
+  ))}
+</div>
+
       </div>
     </section>
 
