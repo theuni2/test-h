@@ -106,7 +106,8 @@ export default function MediaCoverage() {
             href={article.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-200 text-[#011e35] font-semibold px-6 py-3 rounded-full shadow-md hover:bg-blue-300 transition"
+            className="bg-[#eccc93] text-[#1a334c] rounded-xl shadow-lg hover:bg-[#eccc99] font-bold transition px-6 py-3"
+            // className="bg-blue-200 text-[#011e35] font-semibold px-6 py-3 rounded-full shadow-md hover:bg-blue-300 transition"
           >
             View Full Article
           </a>
