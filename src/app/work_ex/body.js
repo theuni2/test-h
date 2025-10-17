@@ -402,7 +402,7 @@ export default function Body() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className="mx-auto max-w-3xl text-center mb-3 text-gray-700"
+      className="mx-auto max-w-6xl text-center mb-3 text-gray-700"
     >
       Work experience has given me the opportunity to apply classroom knowledge to real-world projects, understand professional workflows, and develop practical skills in engineering, aerospace, and technology systems. These roles have allowed me to collaborate with industry professionals and gain a deeper appreciation for the link between theory and application.
     </motion.p>

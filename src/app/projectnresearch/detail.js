@@ -286,7 +286,7 @@ body: [
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
-          className="mx-auto max-w-3xl text-center text-gray-700"
+          className="mx-auto max-w-7xl text-center text-gray-700"
         >
           My projects bring together academic knowledge, technical skills, and a focus on solving real-world problems. Each one reflects a balance between innovation and practical application, whether it’s building technology for underserved communities, exploring AI’s role in healthcare, or addressing environmental challenges. 
 These projects have given me the chance to work both independently and as part of a team, often in competitive or high-profile environments. From early concepts to fully developed prototypes, the work has been shaped by research, experimentation, and a commitment to producing results that have real impact.
@@ -349,7 +349,7 @@ These projects have given me the chance to work both independently and as part o
 <div
   className={`${i % 2 === 0 ? "" : "md:order-2"} flex items-center justify-center`}
 >
-  <div className="group relative flex items-center justify-center overflow-hidden my-auto rounded-2xl shadow-lg w-full h-[350px] sm:h-[420px] md:h-[460px] bg-gray-100">
+  <div className="group relative flex items-center justify-center overflow-hidden my-auto rounded-2xl shadow-lg w-full h-[350px] sm:h-[420px] md:h-[460px] bg-[#011e35]">
     <Image
       src={p.cover}
       alt={p.title}

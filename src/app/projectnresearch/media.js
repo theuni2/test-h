@@ -83,8 +83,8 @@ export default function MediaCoverage() {
 
         {/* Static Text */}
         <div className="w-full h-auto">
-          <p className="text-2xl font-semibold text-[#a0aec0] mb-2">{article.title} —</p>
-          <p className="text-[#d6d6d6] text-lg">{article.description}</p>
+          <p className="text-2xl font-semibold text-[#a0aec0] mb-2">{article.title} </p>
+          {/* <p className="text-[#d6d6d6] text-lg">{article.description}</p> */}
         </div>
 
         {/* Button */}

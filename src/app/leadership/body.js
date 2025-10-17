@@ -216,6 +216,12 @@ export default function LeadershipSection() {
     show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
+ const reveal = {
+    hidden: { opacity: 0, y: 32 },
+    show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
+
   return (
     <section
       id="leadership"
@@ -226,18 +232,24 @@ export default function LeadershipSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6 }}
-        className="max-w-5xl mx-auto text-center"
+        className="max-w-7xl mx-auto text-center"
       >
         <h2 className="text-4xl font-bold tracking-tight text-blue-950">
           Leadership
         </h2>
 
 
-       <p className="mt-4 text-[#1a334c] leading-relaxed">
-        {/* To me, leadership means taking responsibility and helping the team work together. In school projects, clubs, or community work, I’ve learned how to plan, organize, and make difficult decisions. I aim to keep things clear, calm, and cooperative so everyone can do their best. */}
-{/* I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work. */}
-Leadership for me is about taking responsibility, guiding others, and helping teams work toward a shared goal. Whether in academic settings, extracurricular activities, or community initiatives, I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work.
-       </p>
+
+<motion.p
+          variants={reveal}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          className="mx-auto max-w-6xl text-center mb-3 text-gray-700"
+        >
+          Leadership for me is about taking responsibility, guiding others, and helping teams work toward a shared goal. Whether in academic settings, extracurricular activities, or community initiatives, I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work.
+
+        </motion.p>
 
       </motion.div>
 
@@ -264,11 +276,23 @@ Leadership for me is about taking responsibility, guiding others, and helping te
                 {role.title}
               </h3>
 
-              <ul className="mt-3 text-[#d6d6d6] leading-relaxed list-disc list-inside space-y-2">
+              {/* <ul className="mt-3 text-[#d6d6d6] leading-relaxed list-disc list-inside space-y-2">
                 {role.points.map((p) => (
                   <li key={p}>{p}</li>
                 ))}
-              </ul>
+              </ul> */}
+
+              <ul className="mt-3 text-[#d6d6d6] leading-relaxed list-disc list-inside space-y-2">
+  {role.points.map((p, idx) => (
+    <li
+      key={p}
+      className={idx === role.points.length - 1 ? "list-none" : ""}
+    >
+      {p}
+    </li>
+  ))}
+</ul>
+
               <div className="mt-4">
               {role.link && (
   <a
