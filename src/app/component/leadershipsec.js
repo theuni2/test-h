@@ -13,21 +13,28 @@ export default function LeadershipIdentities() {
   const identities = [
   
     {
-      title: "👨‍🏫 Mentor ",
-      text: "As Lower School Liaison and Head of the Physics & Engineering Society, I guided students younger to me through their academics and projects. The success was when they discovered their own confidence and potential which they were not even aware of earlier! That felt incredibly rewarding to me. "
+      title: "Mentor ",
+      text: 
+      // "As Lower School Liaison and Head of the Physics & Engineering Society, I guided students younger to me through their academics and projects. The success was when they discovered their own confidence and potential which they were not even aware of earlier! That felt incredibly rewarding to me. "
+     "Supporting others is at the heart of my leadership style. As Lower School Liaison and Head of the Physics & Engineering Society, I’ve guided younger students through academic and project challenges. Seeing them discover confidence and potential they hadn’t recognized before has been one of the most rewarding parts of my leadership journey."
       // text: "I’ve guided younger students through academic challenges. The process of helping them discover their own confidence and potential felt incredibly rewarding to me."
     },
       {
-      title: "🤝 Collaborator ",
+      title: "Collaborator ",
       // text: "I thrive when working with others towards a common goal. My experiences in international competitions, society leadership, and team-based engineering projects have shown me the power of diverse ideas and shared commitment.",
-      text: "When I find people with whom I share goals, there is a boost of creativity in my mind. The discussions I have with them make me thrive! International competitions and team-based engineering projects allowed be to interact with people, and that’s how I realised the power of diverse ideas and shared commitment.",
+      text:
+      //  "When I find people with whom I share goals, there is a boost of creativity in my mind. The discussions I have with them make me thrive! International competitions and team-based engineering projects allowed be to interact with people, and that’s how I realised the power of diverse ideas and shared commitment.",
+    "I thrive when working with others towards a common goal. Through international competitions, society leadership, and team-based engineering projects, I’ve seen how diverse ideas fuel creativity and stronger results. Collaboration, for me, is about listening, building on others’ strengths, and turning collective effort into innovation that none of us could achieve alone."
+    
     },
     {
-      title: "🧩 Problem Solver",
-      text: "I see problems as opportunities to apply logic, creativity, and persistence. Observed this while diagnosing engineering issues during internships! Once I noticed that tackling abstract math problems can be approached with actual curiosity, focusing on the process as much as the answer."
+      title: "Problem Solver",
+      text:
+      //  "I see problems as opportunities to apply logic, creativity, and persistence. Observed this while diagnosing engineering issues during internships! Once I noticed that tackling abstract math problems can be approached with actual curiosity, focusing on the process as much as the answer."
       // text: "I see problems as opportunities to apply logic, creativity, and persistence. Observed this while diagnosing engineering issues during internships! Once I noticed that tackling abstract math problems can be approached with actual curiosity, focusing on the process as much as the answer."
       // text: "I view problems as puzzles rather than roadblocks. Whether I'm fixing engineering issues during internships or solving abstract math challenges, I approach obstacles with curiosity, creativity, and a determination to keep going until I find the solution."
       // text: "I see problems less as roadblocks and more as puzzles. From debugging engineering issues in internships to cracking abstract math challenges, I tackle obstacles with curiosity, creativity, and the persistence to push through until it clicks."
+    "I see problems as opportunities to apply logic, creativity, and persistence. From diagnosing engineering issues during internships to tackling complex math challenges, I approach every obstacle with curiosity and determination. I’ve learned that true problem-solving isn’t about finding quick answers, but about exploring, testing, and refining ideas until a better solution emerges."
     },
   ];
 

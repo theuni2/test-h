@@ -413,118 +413,158 @@ export default function Achievements() {
       items: [
         {
           title: "High Achievers Award",
-          description:
-            "Recognized for outstanding academic performance by securing grade 9 (highest possible) in all GCSE subjects.",
+            description: (
+    <>Recognized for outstanding academic performance, achieving <strong>Grade 9</strong> (the highest possible) in all GCSE subjects.</>
+  ),
         },
         {
           title: "AP Scholar Award",
-          description:
-            "Honored by the College Board’s AP Scholar Award for exceptional college-level achievement, scoring 5 in Microeconomics and Computer Science A, and 4 in Psychology.",
-        },
+          description:(
+            // "Honored by the College Board’s AP Scholar Award for exceptional college-level achievement, scoring 5 in Microeconomics and Computer Science A, and 4 in Psychology.",
+        <>Honored by the College Board’s AP Scholar Award for exceptional college-level achievement, scoring  <strong>5</strong> (highest possible) in Microeconomics and Computer Science A, and <strong>4</strong> in Psychology. 
+</>
+          )
+          },
         {
           title: "UC Berkeley Course – Introduction to Statistics",
           description:
-            "Successfully completed the Introduction to Statistics course with UC Berkeley, mastering both foundational and inferential statistical methods.",
-        },
+            // "Successfully completed the Introduction to Statistics course with UC Berkeley, mastering both foundational and inferential statistical methods.",
+       (
+        <>Successfully completed the Introduction to Statistics course with UC Berkeley under Professor Dieter Jurkat, earning <strong> 4 credit units </strong> with an <strong>A grade</strong> and a <strong>96% overall average</strong> . The course covered key concepts such as sampling methods, probability distributions, and hypothesis testing, while developing a strong foundation in both descriptive and inferential statistics.
+</>
+       )
+       
+          },
       ],
     },
     {
-      category: "STEM Competitions",
+      category: "STEM Competitions and Olympiads",
       items: [
         {
-          title: "ISMTF Senior Olympiad",
-          description:
-            "Represented Dubai College at the International Schools Mathematics Teachers Foundation (ISMTF) Senior Olympiad in Vienna, competing against top international teams.",
-        },
+          title: "ISMTF Senior Maths Competition",
+          description:(
+            // "Represented Dubai College at the International Schools Mathematics Teachers Foundation (ISMTF) Senior Olympiad in Vienna, competing against top international teams.",
+      <> Achieved top performance in the ISMTF Virtual Senior Mathematics Competition 2024, leading to selection as a representative of Dubai College at the international ISMTF competition in Vienna. Ranked among the <strong>Top 30 globally</strong>, demonstrating excellence in advanced mathematics at both virtual and international levels.</>
+          ),  
+      },
+     
+     {
+          title: " Stanford Math Challenge",
+          description:(
+            // "Represented Dubai College at the International Schools Mathematics Teachers Foundation (ISMTF) Senior Olympiad in Vienna, competing against top international teams.",
+      <> Ranked in the <strong> top 10% globally</strong> in the team round of Stanford University’s International Math Tournament. 
+   </>
+          ),  
+      },
+    {
+      title: "Mathematics Competitions ",
+      description: [
+        <>Achieved distinction and strong placements across a range of prestigious mathematics competitions, including:</>,
+        <>Achieved the <strong>Gold</strong> Certificate in the UKMT Maths Challenge for <strong>five consecutive years (Years 8–12)</strong>, recognizing outstanding performance in <strong>advanced mathematical problem-solving</strong> and <strong>analytical reasoning</strong>.</>,
+        <>Represented Dubai College in the Dubai Maths Super Leagu, where the school secured <strong>1st place </strong> in both Year 10 and Year 11.</>,
+        <>Qualified for the British Mathematical Olympiad (BMO) based on exceptional performance in the UKMT Senior Mathematical Challenge.</>,
+        <>Earned <strong>1st place </strong>in AMC 8 and <strong>3rd place</strong> in AMC 10. Participated in <strong>AMC 12</strong>, gaining exposure to challenging <strong>university-preparatory problem sets</strong>.</>,
+        <>Awarded <strong>Distinction Certificates</strong> in Galois, Fermat, CIMC, and CSMC contests by the Centre for Education in Mathematics and Computing (CEMC).</>,
+      ],
+    },
+
         {
-          title: "Stanford Math Challenge",
-          description:
-            "Ranked in the top 10% globally in the team round of Stanford University’s International Math Tournament.",
-        },
+      title: "British Physics Olympiad (BPhO)",
+      description: [
+        <>Awarded <strong>Silver</strong> for two consecutive years in the British Physics Olympiad (BPhO): Intermediate Challenge in 2024 and Senior Challenge in 2025, recognizing strong problem-solving ability and advanced understanding of Physics.</>,
+      ],
+    },
+    {
+      title: "Chemistry Olympiad & Avogadro Chemistry Contest",
+      description: [
+        <>Awarded the Certificate of Distinction in the Avogadro Chemistry Exam 2025 by the University of Waterloo, Faculty of Science. Ranked <strong>1st</strong> in the United Arab Emirates, and placed in the Top 3% worldwide.</>,
+        <>Awarded the <strong>Bronze Certificate</strong> in the RSC Chemistry Olympiad for demonstrating strong problem-solving skills and advanced understanding of chemistry beyond the school curriculum.</>,
+      ],
+    },
+
         {
           title: "STEM Challenge 2025 – Curtin University & Lab of Future",
-          description:
-            "Represented Dubai College in the STEM Challenge 2025, hosted by Curtin University and Lab of the Future, and placed among the Top 30 teams.",
-        },
+          description:(
+            // "Represented Dubai College in the STEM Challenge 2025, hosted by Curtin University and Lab of the Future, and placed among the Top 30 teams.",
+          <>Represented Dubai College in the STEM Challenge 2025, hosted by Curtin University in partnership with Lab of the Future, and placed among the <strong>Top 30 teams</strong>. </>
+          
+          ),
+          },
         {
           title: "The Golden Bunsen Burner Award",
           description:
-            "Won first place in a science competition featuring experiments from pendulum design to microscopy.",
+            "Selected as one of eight students to represent Dubai College in a national science competition, following high commendation from science faculty for academic excellence and passion for scientific exploration. Competed in a series of challenges ranging from building a pendulum to analyzing unknown organisms under a microscope, and secured first place in the competition.",
         },
-        {
-          title: "DC Estimathon",
-          description:
-            "Successfully competed in Dubai College’s Estimathon — a high-intensity problem-solving event.",
-        },
+     
         {
           title: "Bebras Computing Challenge",
-          description:
-            "Achieved 99.79 percentile internationally and Best in School recognition.",
+          description:(
+            <>Participated in an international competition promoting computational thinking through a series of logic-based challenges, achieving a <strong> 99.79th percentile</strong> ranking and earning <strong> Best in School</strong> recognition for exceptional performance.</>
+          )
+            // "Achieved 99.79 percentile internationally and Best in School recognition.",
         },
       ],
     },
-    {
-      category: "Mathematics & Science Olympiads",
-      items: [
-        {
-          title: "Mathematics Competitions",
-          description:
-            "Achieved distinctions across Dubai Maths Super League, British Mathematical Olympiad (BMO), and American Mathematics Competitions (AMC 8, 10, 12).",
-        },
-        {
-          title: "British Physics Olympiad",
-          description:
-            "Earned commendations in both the Intermediate and Senior British Physics Olympiad.",
-        },
-        {
-          title: "Chemistry Olympiad & Avogadro Chemistry Contest",
-          description:
-            "Achieved strong results in these highly competitive university-level contests.",
-        },
-      ],
-    },
+    // {
+    //   category: "Mathematics & Science Olympiads",
+    //   items: [
+    //     {
+    //       title: "Mathematics Competitions",
+    //       description:
+    //         "Achieved distinctions across Dubai Maths Super League, British Mathematical Olympiad (BMO), and American Mathematics Competitions (AMC 8, 10, 12).",
+    //     },
+    //     {
+    //       title: "British Physics Olympiad",
+    //       description:
+    //         "Earned commendations in both the Intermediate and Senior British Physics Olympiad.",
+    //     },
+    //     {
+    //       title: "Chemistry Olympiad & Avogadro Chemistry Contest",
+    //       description:
+    //         "Achieved strong results in these highly competitive university-level contests.",
+    //     },
+    //   ],
+    // },
     {
       category: "Innovation & Creative",
       items: [
+   {
+  title: "Duke of Edinburgh Awards (Bronze, Silver & Gold)",
+  description: [
+    <>Completed the <strong> Bronze, Silver, and Gold </strong>levels of this internationally recognized adventure program, developing resilience, leadership, and problem-solving through skill building, physical challenges, and community service.</>,
+    <>For the Gold Award, undertook a 4-day expedition covering 100 km on foot, demonstrating endurance and teamwork in challenging conditions.</>,
+    <>As part of the Gold expedition, contributed to refurbishing a school in Mauritius by painting its facilities—an experience that strengthened collaboration and fostered cross-cultural understanding.</>,
+  ],
+},
+
+{
+  title: "Expo 2020 Innovator",
+  description: [
+    <>Began the journey by winning the <strong>Expo 2020 Napkin Challenge,</strong> which advanced into being selected as a finalist for the Young Innovator Award.</>,
+    <>This recognition led to signing a contract with Expo 2020 to showcase a 3D-printed prototype of the project at the Sustainability Pavilion.</>,
+    <>The experience highlighted creativity, problem-solving, and commitment to sustainable innovation on a global stage.</>,
+  ],
+}
+,
+     {
+  title: "KenKen Competitions",
+  description: [
+    <>I consistently participated in KenKen competitions over several years, progressing from the school level to inter-school contests across Dubai, finally competing at the national level within the UAE.</>,
+    <>Along the way, multiple high placements have been achieved, including a <strong>2nd place</strong> finish <strong>xnationally</strong>, which was also recognized with a monetary award.</>,
+  ],
+}
+,
         {
-          title: "Duke of Edinburgh Awards (Bronze, Silver & Gold)",
-          description: [
-            "Completed the Bronze, Silver, and Gold levels of this internationally recognized adventure program, developing resilience, leadership, and problem-solving through skill building, physical challenges, and community service. ",
-            "For the Gold Award, undertook a 4-day expedition covering 100 km on foot, demonstrating endurance and teamwork in challenging conditions.",
-            // "Gold residential: refurbished a school in Mauritius, painting facilities and fostering cross-cultural understanding. (Photos: DOE)",
-          "As part of the Gold residential project, contributed to refurbishing a school in Mauritius by painting its facilities—an experience that strengthened collaboration and fostered cross-cultural understanding."
-          ],
-        },
-        {
-          title: "Expo 2020 Innovator",
-          description: [
-            "Began the journey by winning the Expo 2020 Napkin Challenge, which advanced into being selected as a finalist for the Young Innovator Award. ",
-            "This recognition led to signing a contract with Expo 2020 to showcase a 3D-printed prototype of the project at the Sustainability Pavilion.",
-            "The experience highlighted creativity, problem-solving, and commitment to sustainable innovation on a global stage. ",
-          ],
-        },
-        {
-          title: "KenKen Competitions",
-          description: [
-            "I consistently participated in KenKen competitions over several years, progressing from the school level to inter-school contests across Dubai, finally competing at the national level within the UAE. ",
-            "Along the way, multiple high placements have been achieved, including a 2nd place finish nationally, which was recognized with a monetary award. These events have been both a challenge and a joy, combining mathematical skill with the excitement of competition.",
-            // "Events combined mathematical skill with competitive excitement. (Photos: KenKen)",
-          ],
-        },
-        {
-          title: "Rubik’s Cube Solver",
-          description: [
-            "Achieved personal best time of 8.48 seconds.",
-            // "Showcased at Emirates Living’s Got Talent, solving live on stage. (Photos: Rubik’s Cube)",
-            " This passion for speedcubing was also showcased at Emirates Living’s Got Talent, where the cube was solved in record time, leaving a strong impression on both judges and audience.",
-          ],
-        },
+  title: "Rubik’s Cube Solver",
+  description: [
+    <>Achieved a personal best solving time of <strong> 8.48 seconds.</strong></>,
+    <>This passion for speedcubing was also showcased at Emirates Living’s Got Talent, where the cube was solved in record time, leaving a strong impression on both judges and audience.</>,
+  ],
+}
+,
         {
           title: "DC Terrarium Competition",
-          description: [
-            "Won Dubai College Terrarium Competition.",
-            "Demonstrated creativity, design, and sustainable plant care concepts.",
-          ],
+          description:"Won the Dubai College Terrarium Competition, demonstrating creativity, design skills, and an understanding of plant care and sustainable decorative concepts."
         },
       ],
     },
@@ -532,28 +572,68 @@ export default function Achievements() {
       category: "Community Engagement & Social Impact",
       items: [
         {
-          title: "Fundraising for The Citizens Foundation (TCF)",
-          description: [
-            // "Ambassador of Change leading initiative that raised AED 100,000.",
-            // "Covered annual operational costs of two schools, supporting ~200 students.",
-            // "Driven by belief in education as a transformative tool for underprivileged children.",
-            "As an Ambassador of Change for TCF, played a pivotal role in a team initiative that raised AED 187,000 to support education for underprivileged children in Pakistan;",
-            "This funding fully covered the annual operational costs of two TCF schools, opening the doors of learning to nearly 420 students for an entire year;",
-            "Campaign had a belief that education transforms lives, and every effort was dedicated to ensuring these children have the chance to build a brighter future.",
-          ],
-        },
-        {
-          title: "EEG OROC Campaign",
-          description: [
-            // "Contributed to Emirates Environmental Group’s large-scale recycling initiative.",
-            // "Collected over 1,000 kg of paper, plastic, e-waste, mobiles, and aluminum cans.",
-            // "Directly supported tree-planting efforts across the UAE.",
-            "Actively contributed to the One Root, One Communi-Tree campaign organized by the Emirates Environmental Group (EEG), collecting over 1,000 kilograms of paper, plastic, e-waste, mobile phones, and aluminum cans.",
-            "This large-scale recycling effort directly supported tree-planting initiatives across the UAE, reinforcing the belief that individual action can drive meaningful environmental change. ",
-          ],
-        },
+  title: "Ambassador of Change and Baghbaan Volunteer - The Citizen Foundation (TCF)",
+  description: [
+    <>As an Ambassador of Change for TCF, played a pivotal role in a team initiative that raised <strong> AED 187,000</strong> to support education for underprivileged children in Pakistan.</>,
+    <>This funding fully covered the annual operational costs of two TCF schools, opening the doors of learning to nearly <strong>420 </strong>students for an entire year.</>,
+    <>The campaign was driven by the belief that education transforms lives, and every effort was dedicated to ensuring these children have the chance to build a brighter future.</>,
+    <>Currently working as a Baghbaan Volunteer, contributing to initiatives that create awareness and support the same cause through community engagement and outreach efforts.</>,
+  ],
+}
+,
+       {
+  title: "Ambassador - Emirates Environmental Group",
+  description: [
+    <>Actively contributed to the One Root, One Communi-Tree campaign organized by the Emirates Environmental Group (EEG), collecting over 1,000 kilograms of paper, plastic, e-waste, mobile phones, and aluminum cans.</>,
+    <>This large-scale recycling effort directly supported tree-planting initiatives across the UAE, reinforcing the belief that individual action can drive meaningful environmental change.</>,
+    <>Also promoted sustainability by engaging peers and the community in large-scale recycling initiatives, including the Can Collection Campaign, Clean UAE, E-Waste Day, and more, reinforcing a commitment to environmental responsibility.</>,
+  ],
+}
+,{
+  title:"Fundraising Volunteer - The Little Wings Foundation",
+  description:"Supporting The Little Wings Foundation, an organization that cares for kids with musculoskeletal conditions in the Middle East, Asia, and Africa. All proceeds from my novel Grimrush go to the foundation, turning a fun creative project into a meaningful fundraising effort. Inspired by Dr. Marc Sinclair’s work, this initiative has become a way to make a real difference by helping provide vital medical care to children in need."
+}
       ],
     },
+    {
+  category: "Score",
+  items: [
+    {
+      title: "SAT",
+      description: [
+        <>Total Score: 1570</>,
+        <>Maths: 800</>,
+        <>Reading and Writing: 770</>,
+      ],
+    },
+    {
+      title: "Advanced Placement (AP)",
+      description: [
+        <>(5 is the highest grade possible)</>,
+        <>Computer Science A: 5</>,
+        <>Microeconomics: 5</>,
+        <>Psychology: 4</>,
+      ],
+    },
+    {
+      title: "GCSE Scores",
+      description: [
+        <>( <strong>11 A** (9)</strong>, 9 is the highest grade possible)</>,
+        <>Maths: 9</>,
+        <>Further Maths: 9</>,
+        <>Chemistry: 9</>,
+        <>Biology: 9</>,
+        <>Physics: 9</>,
+        <>Economics: 9</>,
+        <>English Language: 9 (Distinction)</>,
+        <>English Literature: 9</>,
+        <>Computer Science: 9</>,
+        <>Physical Education: 9</>,
+      ],
+    },
+  ],
+}
+
   ];
 
   const toggleExpand = (index) => {
@@ -590,7 +670,7 @@ export default function Achievements() {
         </a>
 
         <a
-          href="https://1drv.ms/w/c/f979c792e77030eb/EbO5rWp7CX9BsKi_JMmtYWcB3czzfcS6OHuzzyYvyIKaFQ?e=UWYAOz"
+          href="https://1drv.ms/b/c/f979c792e77030eb/EdLwGJPWVMdEmGsyAbt6_dkBHRg494XzcLGmnxp4imrmXg?e=apuaue"
           target="_blank"
           rel="noopener noreferrer"
           className="mb-4 bg-[#eccc93] mx-auto text-[#1a334c] font-semibold py-2 px-4 rounded-lg transition duration-300 w-full md:w-auto"

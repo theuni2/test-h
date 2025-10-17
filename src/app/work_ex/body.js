@@ -229,11 +229,13 @@ export default function Body() {
       date: "29 July 2024 – 9 August 2024",
       companyDetails:
         "InvestIN offers immersive career experiences led by industry professionals, designed to give students real-world insight into engineering. The Young Engineer Summer Experience provides hands-on projects across mechanical, civil, electrical, and aerospace fields, alongside innovation challenges and professional skills development.",
-      description: [
-        "Completed a two-week immersive engineering program designed by professionals from multiple disciplines, bridging the gap between school and the workplace;",
-        "Gained experience in robotics and machine learning through designing an AI creation;",
-        "Attended a private networking session with engineers at University College London and completed psychometric and personality testing, receiving coaching on the key soft skills needed to excel in engineering. The experience involved 65 hours of contact time."
-      ],
+  description: [
+  "Completed a two-week immersive engineering program designed by professionals from multiple disciplines, bridging the gap between school and the workplace.",
+  "Designed and tested an aerofoil in a wind tunnel, programmed a fly-by-wire control panel, and explored commercial aircraft with aerospace engineers and pilots.",
+  "Gained experience in robotics and machine learning through designing an AI creation, dismantled a petrol engine under the guidance of a mechanical engineer, and studied climate change solutions at the Thames Barrier.",
+  "Attended a private networking session with engineers at University College London and completed psychometric and personality assessments with coaching on essential professional skills. The 65-hour program offered comprehensive exposure to both the technical and interpersonal dimensions of engineering."
+],
+
       photos: false,
     },
     {
@@ -242,15 +244,12 @@ export default function Body() {
       date: "12 August 2024 – 16 August 2024",
       companyDetails:
         "2Excel Engineering specializes in aircraft maintenance and modification, Turnpoint provides aviation training and solutions, and Lasham Gliding is one of Europe’s largest gliding centers. Together, they offer immersive industry exposure across aircraft systems, engineering practices, and real-world aviation operations.",
-      description: [
-        // "Explored aviation engineering and gliding operations.",
-        // "Learned about aircraft systems, glider mechanics, and maintenance.",
-        // "Gained practical exposure through immersive internship sessions."
-        "This was an immersive engineering internship in partnership with Turnpoint, 2Excel Engineering, and Lasham Gliding.",
-        "Gained hands-on exposure to aviation engineering and gliding operations, working directly with industry professionals.",
-        "Activities included exploring aircraft systems, understanding the mechanics of gliders, and learning practical maintenance techniques.",
+   description: [
+  "Completed an immersive engineering internship in partnership with Turnpoint, 2Excel Engineering, and Lasham Gliding.",
+  "Gained hands-on exposure to aviation engineering and gliding operations, working directly with industry professionals.",
+  "Explored aircraft systems, studied the mechanics of gliders, and learned practical maintenance techniques. The program combined technical insight with hands-on operational experience, providing a real-world perspective on engineering within the aviation industry."
+],
 
-      ],
       photos: false,
     },
     {
@@ -259,14 +258,11 @@ export default function Body() {
       date: "8 July 2024 – 19 July 2024",
       companyDetails:
         "TouchPoint (Pvt.) Limited is Pakistan’s leading provider of self-service banking and financial technology, delivering secure and scalable digital solutions. Since 2007, it has enabled branch transformation through ATMs, cash and cheque deposit machines, and digital platforms. Today, TouchPoint supports thousands of terminals across 600+ cities, helping banks provide 24/7 real-time services nationwide.",
-      description: [
-        // "Worked on Cash Deposit Machine product design and usability.",
-        // "Assisted in development and testing of software components.",
-        // "Engaged in debugging and validation tasks."
-        "Completed a two-week internship in the Product Design and Development function at TouchPoint. Worked closely with the team on key initiatives, including participating in the design of a Cash Deposit Machine.",
-        "Assisted in the development and testing of software components, engaging in hands-on activities across the product lifecycle such as debugging and validation.",
-        
-      ],
+   description: [
+  "Completed a two-week internship in the Product Design and Development function at TouchPoint. Worked closely with the team on key initiatives, including participating in the design of a Cash Deposit Machine and supporting improvements to product features and usability.",
+  "Assisted in the development and testing of software components, engaging in hands-on activities across the product lifecycle such as debugging and validation. Demonstrated a collaborative approach and a strong interest in product innovation while contributing to ongoing development projects."
+],
+
       photos: false,
     },
     {
@@ -276,27 +272,27 @@ export default function Body() {
       companyDetails:
         "Diebold Nixdorf is a global leader in financial and retail technology, helping automate, digitize, and transform the way people bank and shop. With 160+ years of innovation, it delivers integrated hardware, software, and services—such as ATMs, point-of-sale systems, and branch solutions—to clients in over 100 countries.",
       description: [
-        "Gained exposure to the corporate environment and learned how ATM projects integrate both hardware and software components. ",
-        "Collaborated with cross-functional teams to identify ways to improve ATM solutions; testing and troubleshooting to ensure smooth hardware and software integration for ATM systems.",
+        // "Gained exposure to the corporate environment and learned how ATM projects integrate both hardware and software components. ",
+        // "Collaborated with cross-functional teams to identify ways to improve ATM solutions; testing and troubleshooting to ensure smooth hardware and software integration for ATM systems.",
         // "Collaborated with engineering teams to improve solutions."
+
+        "Gained exposure to the corporate environment and learned how ATM projects integrate both hardware and software components. ",
+        "Collaborated with cross-functional teams to identify ways to improve ATM solutions; testing and troubleshooting to ensure smooth hardware and software integration for ATM systems."
       ],
       photos: false,
     },
     {
       logo: "/image/company/Sarsan_Aviation.png",
-      title: "Sarsan Aviation Academy (Dubai)",
+      title: "Sarsan Aviation Academy",
       date: "7 July 2025 – 11 July 2025",
       companyDetails:
         "Sarsan Aviation Academy (Dubai) provides GCAA-approved Aircraft Maintenance Engineering training in CAT A1, B1.1, and B2 programs. With experienced instructors and hands-on access to real aircraft and engines, it equips students with the practical skills needed for successful aviation careers.",
-      description: [
-        // "Studied flight theory including Navier–Stokes equation and aircraft/rocket design.",
-        // "Worked on aircraft landing gear components in workshop.",
-        // "Explored Soloviev D-30 turbofan engine design and structure."
-        "Studied flight theory, including the Navier–Stokes equation for fluid dynamics, and the reasoning behind the structural design of aircraft and rockets. ",
-        "Worked in a workshop to create parts for the repair of an aircraft’s landing gear.",
-        "Gained hands-on experience with components of the Soloviev D-30, one of the most powerful turbofan engines, learning about its structure and operation.",
+ description: [
+  "Studied flight theory, including the Navier–Stokes equation for fluid dynamics, and the reasoning behind the structural design of aircraft and rockets.",
+  "Worked in a workshop to create parts for the repair of an aircraft’s landing gear.",
+  "Gained hands-on experience with components of the Soloviev D-30, one of the most powerful turbofan engines, learning about its structure and operation."
+],
 
-      ],
       photos: false,
     },
     {
@@ -305,21 +301,20 @@ export default function Body() {
       date: "26 July 2025 – 30 August 2025",
       companyDetails:
         "Eddyfi Technologies is a global leader in non-destructive testing (NDT), providing advanced instruments, sensors, software, and robotic systems. Serving industries from aerospace to energy, it helps organizations improve safety, productivity, and asset reliability worldwide.",
-      description: [
-        "Participated in a six-week engineer shadowing program delivered in collaboration with Eddyfi Robotics ",
-        "Live sessions that I attended  covered multiple engineering fields, including robotics, aerospace, mechanical, electrical, and sustainable design.",
-        "Projects have included creating aerodynamic car models using CAD tools, designing and programming robotic systems in simulation software, and exploring renewable design concepts."
-      ],
+  description: [
+  "Participated in a six-week engineer shadowing program delivered in collaboration with Eddyfi Technology.",
+  "Attended live sessions covering multiple engineering fields, including robotics, aerospace, mechanical, electrical, and sustainable design.",
+  "Created aerodynamic car models using CAD tools, designed and programmed robotic systems in simulation software, and explored renewable design concepts."
+],
+
       photos: false,
     },
     {
       logo: "/image/company/attakkera.png",
       title: "Attakkera",
-      date: "Grade 11",
-      duration: {
-        "start": "4 December 2024",
-        "end": "3 January 2025"
-      },
+      d: "Grade 11",
+      date: "4 December 2024 - 3 January 2025",
+     
       companyDetails: "ATTAKKERA is a cutting-edge research and design initiative focused on futuristic transport and infrastructure systems.",
       description: [
         "Gained hands-on experience in automotive manufacturing and 3D printing within mechanical engineering.",
@@ -329,56 +324,130 @@ export default function Body() {
     },
   ];
 
-
+ const reveal = {
+    hidden: { opacity: 0, y: 32 },
+    show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
 
   return (
-    <section className={`py-10 px-6 md:px-20 bg-[#d6d6d6] ${ptSerif.className} `}>
-      <div className="max-w-6xl mx-auto">
-        <motion.h2
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold mb-10 text-center text-blue-950"
-        >
-          Work Experience
-        </motion.h2>
-     <div className="grid gap-10 md:grid-cols-2">
-  {experiences.map((exp, index) => (
-    <motion.div
-      key={index}
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
-      viewport={{ once: true }}
-      className={`bg-[#011e35] rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#eccc93]
-        ${index === experiences.length - 1 ? "md:col-span-2 md:mx-auto md:w-1/2" : ""}`}
+//     <section className={`py-10 px-6 md:px-20 bg-[#d6d6d6] ${ptSerif.className} `}>
+//       <div className="max-w-6xl mx-auto">
+//         <motion.h2
+//           initial={{ opacity: 0, y: -30 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.8 }}
+//           className="text-3xl md:text-4xl font-bold mb-10 text-center text-blue-950"
+//         >
+//           Work Experience
+//         </motion.h2>
+//         <motion.p
+//           variants={reveal}
+//           initial="hidden"
+//           whileInView="show"
+//           viewport={{ once: true, amount: 0.25 }}
+//           className="mx-auto max-w-3xl text-center mb-3 text-gray-700"
+//         >
+//  Work experience has given me the opportunity to apply classroom knowledge to real-world projects, understand professional workflows, and develop practical skills in engineering, aerospace, and technology systems. These roles have allowed me to collaborate with industry professionals and  gain a deeper appreciation for the link between theory and application.
+//         </motion.p>
+//      <div className="grid gap-10 md:grid-cols-2">
+//   {experiences.map((exp, index) => (
+//     <motion.div
+//       key={index}
+//       initial={{ opacity: 0, y: 40 }}
+//       whileInView={{ opacity: 1, y: 0 }}
+//       transition={{ duration: 0.6, delay: index * 0.1 }}
+//       viewport={{ once: true }}
+//       className={`bg-[#011e35] rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#eccc93]
+//         ${index === experiences.length - 1 ? "md:col-span-2 md:mx-auto md:w-1/2" : ""}`}
+//     >
+//       <div className="flex items-center gap-3 mb-2">
+//         <img src={exp.logo} alt={exp.title} className="w-14 h-14 object-contain border-2 border-gray-50" />
+//         <h3 className="text-xl font-semibold text-[#d6d6d6]">{exp.title}</h3>
+//       </div>
+
+//       {exp.companyDetails && (
+//         <p className="text-[#a0aec0] text-sm italic mb-3">{exp.companyDetails}</p>
+//       )}
+
+//       <ul className="list-disc pl-5 text-[#d6d6d6] mb-3 space-y-2">
+//         {exp.description.map((point, i) => (
+//           <li key={i}>{point}</li>
+//         ))}
+//       </ul>
+
+//       {exp.photos && (
+//         <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-gray-400">
+//           [Add Photos Here]
+//         </div>
+//       )}
+//     </motion.div>
+//   ))}
+// </div>
+
+//       </div>
+//     </section>
+<section className={`py-10 px-6 md:px-20 bg-[#d6d6d6] ${ptSerif.className} `}>
+  <div className="max-w-6xl mx-auto">
+    <motion.h2
+      initial={{ opacity: 0, y: -30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="text-3xl md:text-4xl font-bold mb-10 text-center text-blue-950"
     >
-      <div className="flex items-center gap-3 mb-2">
-        <img src={exp.logo} alt={exp.title} className="w-14 h-14 object-contain border-2 border-gray-50" />
-        <h3 className="text-xl font-semibold text-[#d6d6d6]">{exp.title}</h3>
-      </div>
+      Work Experience
+    </motion.h2>
 
-      {exp.companyDetails && (
-        <p className="text-[#a0aec0] text-sm italic mb-3">{exp.companyDetails}</p>
-      )}
+    <motion.p
+      variants={reveal}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.25 }}
+      className="mx-auto max-w-3xl text-center mb-3 text-gray-700"
+    >
+      Work experience has given me the opportunity to apply classroom knowledge to real-world projects, understand professional workflows, and develop practical skills in engineering, aerospace, and technology systems. These roles have allowed me to collaborate with industry professionals and gain a deeper appreciation for the link between theory and application.
+    </motion.p>
 
-      <ul className="list-disc pl-5 text-[#d6d6d6] mb-3 space-y-2">
-        {exp.description.map((point, i) => (
-          <li key={i}>{point}</li>
-        ))}
-      </ul>
+    <div className="grid gap-10 md:grid-cols-2">
+      {experiences.map((exp, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: index * 0.1 }}
+          viewport={{ once: true }}
+          className={`bg-[#011e35] rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#eccc93]
+            ${index === experiences.length - 1 ? "md:col-span-2 md:mx-auto md:w-1/2" : ""}`}
+        >
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-3">
+              <img src={exp.logo} alt={exp.title} className="w-14 h-14 object-contain border-2 border-gray-50" />
+              <h3 className="text-xl font-semibold text-[#d6d6d6]">{exp.title}</h3>
+            </div>
+            {exp.date && (
+              <span className="text-sm text-[#a0aec0] italic">{exp.date}</span>
+            )}
+          </div>
 
-      {exp.photos && (
-        <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-gray-400">
-          [Add Photos Here]
-        </div>
-      )}
-    </motion.div>
-  ))}
-</div>
+          {exp.companyDetails && (
+            <p className="text-[#a0aec0] text-sm italic mb-3">{exp.companyDetails}</p>
+          )}
 
-      </div>
-    </section>
+          <ul className="list-disc pl-5 text-[#d6d6d6] mb-3 space-y-2">
+            {exp.description.map((point, i) => (
+              <li key={i}>{point}</li>
+            ))}
+          </ul>
+
+          {exp.photos && (
+            <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-gray-400">
+              [Add Photos Here]
+            </div>
+          )}
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
 
    
   );

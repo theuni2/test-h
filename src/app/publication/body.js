@@ -15,9 +15,9 @@ const ptSerif = PT_Serif({
 export default function Publications() {
   const publications = [
     {
-      title: "Research Paper – Mobility Rover for Remote Communities",
+      title: "Research Paper - Adapting martian rover technology for terrestrial disaster response and extreme terrains",
       // description:"Currently preparing a research paper on the design and development of a mobility rover aimed at delivering medical support and essential supplies to remote areas. Developed under guidance from an MIT PhD graduate, it will be submitted to academic journals upon completion. The paper covers engineering design principles, materials selection, terrain adaptability, and prototype testing, as well as the humanitarian applications of the rover.",
-      description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. This is going to be published in the upcoming issue of the Curieux Academic Journal. With guidance from an MIT PhD graduate, I’ve looked into everything from engineering design and materials selection to terrain adaptability and prototype testing. I also explored how this technology could create a real humanitarian impact.",
+      description:"Conducted a year-long research project on adapting Martian rover technology for terrestrial disaster response and extreme terrains, under the mentorship of an MIT PhD graduate. The project investigated how rover mobility systems, structural design, and materials could be optimized for delivering essential supplies in regions impacted by natural disasters.This work combined principles of mechanical engineering, robotics, and humanitarian innovation, and has been accepted for publication in the upcoming issue of the Curieux Academic Journal. The experience enhanced my ability to connect advanced engineering concepts with real-world applications in disaster management.",
       // description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
      
       link: null,
@@ -26,7 +26,7 @@ export default function Publications() {
     {
       title: "Grimrush – Fiction Novel",
       description:
-        "I wrote Grimrush, a novel available on Amazon. The best part is that every copy helps support The Little Wings Foundation. This organization cares for kids with musculoskeletal conditions in the Middle East, Asia, and Africa. What began as a fun creative project has become a way to make a real difference.",
+        "Grimrush is a fiction novel I wrote and self-published on Amazon, with all proceeds donated to The Little Wings Foundation, which provides life-changing medical care for children with musculoskeletal deformities across the Middle East, Asia, and Africa.The inspiration came after meeting Dr. Marc Sinclair, the surgeon who treated my own external tibial torsion, and witnessing firsthand how compassion and expertise can transform lives. Grimrush became more than a story - it became a way to merge creativity with purpose and use my words to make a tangible difference.",
       links: [
         { label: "US: View on Amazon", url: "https://amzn.to/2U6ZAdH" },
         { label: "UK: View on Amazon", url: "https://amzn.to/3jbUNSm" },
@@ -36,7 +36,7 @@ export default function Publications() {
     },    {
       title: "DC Hydraulics – Dubai College Engineering Magazine",
       description:
-        "I’m the Chief Editor, Co-Founder, and writer for DC Hydraulics, Dubai College’s student-run engineering magazine. I set the editorial tone, work with a team of writers, and contribute my own articles as well. Since we launched, it has become a popular read for our STEM community.",
+        "I am the Chief Editor, Co-Founder, and contributor to DC Hydraulics, a student-run engineering magazine showcasing innovation, research, and student-led projects in STEM. The publication provides a platform for students to share ideas, explain complex concepts, and highlight achievements in science and engineering. As Chief Editor, I lead the editorial vision, coordinate with writers and designers, and contribute original articles while ensuring clarity, accuracy, and visual coherence. Since its launch, DC Hydraulics has grown into a cornerstone of the school’s STEM community, fostering collaboration, knowledge-sharing, and creative problem-solving.",
       links: [
         { label: "Volume 1 (PDF)", url: "/pdf/dc1.pdf" },
         // { label: "Volume 1 (PDF)", url: "https://drive.google.com/file/d/1a7HMMr-_P0pqopKeR7DAOCwuvUlgXCa3/view?usp=drive_link" },
@@ -46,9 +46,10 @@ export default function Publications() {
       image: "/image/dchydraulics.png", // Replace with actual path
     },
       {
-      title: "Flight Forward – Evaluating Sustainable Propulsion Systems for Jet Aviation",
+      title: "Research Paper - Sustainable Propulsion: Evaluating Alternatives to Jet Fuel for Regional Aviation",
       // description:"Currently preparing a research paper on the design and development of a mobility rover aimed at delivering medical support and essential supplies to remote areas. Developed under guidance from an MIT PhD graduate, it will be submitted to academic journals upon completion. The paper covers engineering design principles, materials selection, terrain adaptability, and prototype testing, as well as the humanitarian applications of the rover.",
-      description:"I worked on a research paper that evaluates alternative propulsion systems for jets, focusing on their deployment in short-haul flights and aviation operations. My findings show that while all alternatives require some support systems, sustainable aviation fuel (SAF) demands significantly less infrastructural overhaul compared to electric or hydrogen jet engines.",
+      description:"Conducted a research project on evaluating alternative jet propulsion systems for short-haul aviation, comparing sustainable aviation fuel (SAF), electric engines, and hydrogen technologies under the mentorship of an MIT PhD graduate. The study analyzed infrastructure needs, development costs, and technological readiness, highlighting SAF as the most practical short-term solution due to its lower capital requirements and broader applicability. This work integrated principles of aerospace engineering, energy systems, and sustainability, and resulted in a research paper currently under submission to an academic journal.",
+
       // description:"I worked on a research paper about a mobility rover that delivers medical support and essentials to remote areas. With guidance from an MIT PhD graduate, I’m looking into everything from engineering design and materials selection to terrain adaptability and prototype testing. I am also exploring how this technology can create a real humanitarian impact.",
      
       link: null,
@@ -56,10 +57,15 @@ export default function Publications() {
     },
   ];
 
+ const reveal = {
+    hidden: { opacity: 0, y: 32 },
+    show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
   return (
     <section className={`bg-[#d6d6d6] py-16 px-6 ${ptSerif.className} `}>
       <motion.h2
-        className="text-3xl font-bold text-center mb-8 text-blue-950"
+        className="text-3xl font-bold text-center mb-4 text-blue-950"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -67,7 +73,17 @@ export default function Publications() {
       >
         Publications
       </motion.h2>
-      
+      <motion.p
+          variants={reveal}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          className="mx-auto max-w-3xl text-center mb-3 text-gray-700"
+        >
+          My projects bring together academic knowledge, technical skills, and a focus on solving real-world problems. Each one reflects a balance between innovation and practical application, whether it’s building technology for underserved communities, exploring AI’s role in healthcare, or addressing environmental challenges. 
+These projects have given me the chance to work both independently and as part of a team, often in competitive or high-profile environments. From early concepts to fully developed prototypes, the work has been shaped by research, experimentation, and a commitment to producing results that have real impact.
+
+        </motion.p>
 
       <div className="max-w-6xl mx-auto space-y-12">
         {publications.map((pub, index) => (

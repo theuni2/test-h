@@ -54,8 +54,6 @@
 //     </section>
 //   );
 // }
-
-
 import { PT_Serif } from "next/font/google";
 
 const ptSerif = PT_Serif({
@@ -70,36 +68,31 @@ export default function AboutMe() {
         
         {/* Left: Text */}
         <div className="flex-1">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3 text-blue-950">About Me</h2>
-          
+          <h2 className="text-3xl md:text-4xl font-bold mb-3 text-blue-950">
+            About Me
+          </h2>
+
           <p className={`text-[#1a334c] leading-relaxed mb-4 ${ptSerif.className}`}>
-      I’m Humayl Fazal, an A-Level student at Dubai College, pursuing Mathematics, Further Mathematics, Physics, and Chemistry. My passion lies at the intersection of engineering, mathematics, and innovation. I feel this is where curiosity meets practical problem-solving. I’m fascinated by engines, rovers, and machines. If it moves, I want to understand it.
-That curiosity grew into hands-on experience.
-
+            I’m Humayl Fazal, an A-Level student at Dubai College, pursuing Mathematics, Further Mathematics, Physics, and Chemistry. My passion lies in exploring the intersection of engineering, mathematics, and innovation, where curiosity evolves into purposeful problem-solving.
           </p>
-          
-          <p className="text-[#1a334c] leading-relaxed mb-4">
 
-As Head of the Physics & Engineering Society and Co-Founder of the Physics in Motion Club, I lead workshops, mentor peers, and organize events that inspire others to explore STEM. My participation in the British Mathematics Olympiad, ISMTF Senior Olympiad, and Stanford Math Challenge helped me learn how to solve problems under pressure.          
+          <p className={`text-[#1a334c] leading-relaxed mb-4 ${ptSerif.className}`}>
+            From a young age, I’ve been captivated by how machines work — from the precision of aircraft engines to the resilience of rovers exploring new worlds. What began as curiosity has evolved into hands-on exploration: designing prototypes to improve remote healthcare delivery, delving into aerospace engineering during industry internships, and applying mathematical and physical principles to solve real-world challenges. Each experience has deepened my understanding of how innovation can bridge the gap between theory and impact.
           </p>
-          
-          <p className="text-[#1a334c] leading-relaxed mb-4">
 
-{/* While showcasing projects at Expo 2020, where I represented my school’s U19 cricket team, and developing innovative engineering solutions, my goal was the same: make an impact through innovation.  */}
-Whether it’s showcasing projects at Expo 2020, representing my school’s U19 cricket team, or developing innovative engineering solutions, I’m driven by the same goal: to make an impact through innovation, collaboration, and perseverance.
+          <p className={`text-[#1a334c] leading-relaxed mb-4 ${ptSerif.className}`}>
+            As Head of the Physics & Engineering Society and Co-Founder of the Physics in Motion Club, I organize workshops, mentor peers, and encourage collaborative exploration in science and technology. Participating in the British Mathematics Olympiad, ISMTF Senior Olympiad, and Stanford Math Challenge has strengthened my analytical thinking and resilience under pressure.
           </p>
-          
-          {/* <p className="text-[#1a334c] leading-relaxed">
-            When I’m not in the lab or classroom, I trade equations for cricket pitches and water polo matches. 
-            Whether in sports, research, or designing solutions, I’m after the same goal: making an impact through 
-            curiosity, teamwork, and enough persistence to turn “what if” into “why not.”
-          </p> */}
+
+          <p className={`text-[#1a334c] leading-relaxed mb-4 ${ptSerif.className}`}>
+            Whether I’m presenting projects at Expo 2020, representing my school’s U19 cricket and water polo teams, or developing innovative engineering solutions, I’m driven by the same goal: to create meaningful impact through innovation, collaboration, and perseverance.
+          </p>
         </div>
 
         {/* Right: Image */}
         <div className="flex-1 flex justify-center md:justify-end">
           <img
-            src="/image/him.jpg" // Place your image in public/ folder
+            src="/image/him.jpg" // Place your image in the public/ folder
             alt="Humayl Fazal"
             className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"
           />

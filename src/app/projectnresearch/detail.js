@@ -94,16 +94,15 @@ export default function ProjectsDetails() {
         "/image/rover/3.png"
       ],
       blurb:
-        "Why this project: To construct a vehicle that can reach communities that lack road access or healthcare so that both medical staff and necessary supplies can get to the areas that need them the most.",
+        "Why this project: To design a rover capable of delivering essential medical and relief supplies to communities without road or healthcare access.",
       body: [
-        "Created and visualized a rover to go over rough, hill-like terrains and carry local people the materials they need to survive.",
-        // "The idea for this project started after learning about the challenges faced by communities with no direct access to roads or healthcare facilities. I wanted to design something practical that could make a real difference in how medical teams and supplies reach people in urgent need.",
-        "Did extensive research and identified materials which are both durable and cost-effective to provide maximum resistance.",
-
-        "Constructed the mechanical stability systems for secure travel over difficult grounds",
-        "Designed test plans of the conditions that would be encountered in the field to confirm the feasibility of the vehicle in real life.",
-        "Impact: Made it possible to take medical attention, electricity, hygiene, and food to the less favored areas in a quicker way."
-      ],
+        "Conceived the idea after studying the challenges faced by landlocked regions lacking reliable infrastructure and emergency access.",
+"Designed and visualized a rover capable of traversing steep and uneven terrain to safely transport critical supplies.",
+"Conducted extensive research to identify durable and cost-effective materials that maximize stability, efficiency, and resistance on rough surfaces.",
+"Engineered the stability mechanisms and wheel suspension systems to ensure reliable performance across challenging terrain.",
+"Developed simulated test conditions to assess the rover’s performance and confirm its feasibility in real-world scenarios.",
+"Impact: Enabled the efficient and safe transport of medical aid and hygiene supplies to underserved areas, improving access to essential resources for communities previously beyond reach."
+         ],
       chips: ["Robotics", "Rapid Prototyping", "Humanitarian Tech"],
       // note: "Keep space for photos of the Model (Sketches, Model Drawing, 3D Printed Model).",
       link:'#mrover'
@@ -118,7 +117,8 @@ export default function ProjectsDetails() {
         "/image/sea_rover/C.JPG",
         // "/projects/fasal-bot/expo.jpg",
       ],
-      blurb:"Why this project: To fight water pollution by extracting floating wastes from oceans and rivers in a way that saves energy.",
+      blurb:"Why this project: To create a concept for an autonomous rover that could collect floating waste from oceans and waterways, reducing pollution through practical and sustainable engineering design.",
+
       // body: [
       //   "We chose to address water pollution, focusing on how to remove floating waste from oceans and waterways.",
       //   "Made a small-sized rover with a mechanical system to gather floating waste and purify water at the same time.",
@@ -126,17 +126,15 @@ export default function ProjectsDetails() {
       //   "He presented the prototype at the Sustainability Pavilion during Expo 2020 to an international audience.",
       //   "Impact: Encouraged the public to consider sustainable engineering solutions that can be adapted for ocean sustainability."
       // ],
-      body: [
-                "This project began during the Expo 2020 Napkin Challenge, where my team and I were asked to sketch an innovation on a tissue (napkin) that could solve a real-world problem.",
+ body: [
+  "Initiated during the Expo 2020 Napkin Challenge, where my team and I proposed an innovative solution to tackle water pollution.",
+  "Selected as a Young Innovator Finalist, leading to a collaboration with Expo 2020 engineers to transform our concept into a 3D prototype visualization.",
+  "The design featured a mechanical collection system that channels debris into a storage compartment while allowing water to flow through.",
+  "Focused on the idea of creating a lightweight, energy-efficient, and easy-to-maintain system suitable for large-scale environmental use.",
+  "The final prototype, developed by Expo 2020, was displayed at the Sustainability Pavilion, showcasing youth-led innovation in environmental technology.",
+  "Impact: Highlighted how student-driven ideas can inspire real-world environmental solutions, encouraging sustainable innovation and global awareness about ocean pollution."
+],
 
-        "We chose to address water pollution, focusing on how to remove floating waste from oceans and waterways.",
-        "Our concept advanced to the Young Innovator Finalist stage, and we signed a contract with Expo 2020 to develop it further. The design evolved into a working 3D prototype of a small-scale rover that uses a mechanical collection system to channel debris into a storage compartment while allowing water to flow through.",
-        "The aim was to create a lightweight, energy-efficient, and easy-to-maintain solution.",
-        // "He presented the prototype at the Sustainability Pavilion during Expo 2020 to an international audience.",
-        "My biggest takeaway from this project was learning the process of turning an idea into a tangible solution through teamwork, persistence, and technical skill.",
-        "Impact: Encouraged the public to consider sustainable engineering solutions that can be adapted for ocean sustainability."
-
-      ],
       chips: ["Sustainability", "Mechanical Design", "Team Project"],
       linkLabel: "Model photos & sketches",
       linkHref:
@@ -151,65 +149,82 @@ export default function ProjectsDetails() {
       gallery: [
        
       ],
-      blurb:"Why this project: To investigate whether AI could aid doctors in making quicker and more accurate decisions in the case of dangerous diseases.",
+      blurb:"Why this project: To explore how artificial intelligence can assist doctors in making faster, more accurate diagnoses for diseases with high global impact, such as pneumonia.",
         // "Why this project: To investigate whether AI could aid doctors in making quicker and more accurate decisions in the case of dangerous diseases.",
         // "Trained a model on chest X-rays to identify pneumonia; explored privacy, bias, and clinical reliability.",
-      body: [
-                "This project began with a simple question: how can technology help doctors make faster and more accurate diagnoses? I chose pneumonia detection because of its global impact and the importance of early treatment.",
-
-        "Working with medical imaging datasets, I trained an AI model to identify signs of pneumonia from X-ray scans. ",
-        "It involved cleaning and organizing large sets of images, coding the model in Python, and testing its accuracy. ",
-        "Along the way, I came across the ethical questions around using AI in healthcare, including patient privacy and reliability.",
-        "The goal was not only to make the model work, but to understand the potential and limitations of AI in real medical settings. ",
-        "Impact: Shown the potential of AI to speed up diagnostic processes while simultaneously exposing its current limits."
-      ],
+         body: [
+  "Initiated research on pneumonia detection to understand the role of AI in improving early diagnosis and treatment outcomes.",
+  "Trained a machine learning model using medical imaging datasets to identify pneumonia from X-ray scans with increasing accuracy.",
+  "Cleaned, organized, and preprocessed large sets of medical images, and coded the model using Python and relevant AI frameworks.",
+  "Tested performance through accuracy metrics and iterative tuning to enhance prediction reliability.",
+  "Studied the ethical implications of AI in healthcare, focusing on patient privacy, bias, and clinical trustworthiness.",
+  "Impact: Demonstrated the potential of AI-driven diagnostics to support medical professionals in life-saving decisions while emphasizing the importance of ethical and responsible AI deployment."
+],
       chips: ["Python", "Deep Learning", "Healthcare AI"],
     },
     {
       id: "stanford-ml",
-      title: "Machine Learning System — Stanford Pre-Collegiate",
+      title: "Machine Learning System — Stanford Pre-Collegiate Summer Studies",
       cover: "/image/for.png",
       gallery: [
         // "/projects/stanford-ml/cover.jpg",
         // "/projects/stanford-ml/notes.jpg",
       ],
       blurb:
-        "Why this project: This project was made to adopt the real-world application of supervised, unsupervised, and reinforcement learning to tackle practical problems by deepening AI knowledge.",
-      body: [
-        "Completed a two-week intensive course on artificial intelligence with Stanford University.",
-        // "Python was the programming language used to implement the algorithms, in which linear algebra, calculus, and optimization skills were applied.",
-        // "The author created a neural-network model that predicts the breakdown of machines by using real data.",
-        // "Investigated the presence of bias in AI systems and tried to find ways to reduce it.",
-        "Implemented algorithms in Python using both educational and real-world datasets, while applying mathematical concepts from linear algebra, statistics, calculus, and optimization.",
-        "Explored the impact of bias in AI systems and strategies to mitigate it. ",
-        "The final project modelled machine failure using neural networks, an original approach selected independently.",
-        "Completed all assignments in a program designed to challenge even university-level students. This not only built my technical skills, but also the understanding of how we design AI systems that are safe, efficient, and ethical.",
-        "Impact: Improved knowledge of theory, practical application skills, and ethical issues in AI-related fields."
+        "Why this project: To deepen understanding of artificial intelligence through academic study and hands-on application in a university-level research environment.",
+//       body: [
+//   "Initiated research on pneumonia detection to understand the role of AI in improving early diagnosis and treatment outcomes.",
+//   "Trained a machine learning model using medical imaging datasets to identify pneumonia from X-ray scans with increasing accuracy.",
+//   "Cleaned, organized, and preprocessed large sets of medical images, and coded the model using Python and relevant AI frameworks.",
+//   "Tested performance through accuracy metrics and iterative tuning to enhance prediction reliability.",
+//   "Studied the ethical implications of AI in healthcare, focusing on patient privacy, bias, and clinical trustworthiness.",
+//   "Impact: Demonstrated the potential of AI-driven diagnostics to support medical professionals in life-saving decisions while emphasizing the importance of ethical and responsible AI deployment."
+// ],
 
-      ],
+body: [
+  "Completed a two-week intensive AI and Machine Learning program at Stanford University, covering supervised, unsupervised, and reinforcement learning.",
+  "Implemented algorithms in Python, applying mathematical concepts from linear algebra, calculus, and statistics to real-world and educational datasets.",
+  "Conducted a final project that modeled machine failure using neural networks, independently selecting and executing the approach.",
+  "Explored bias in AI systems and learned strategies for detection and mitigation to promote fairness and ethical design.",
+  "Completed all program assignments and assessments in a course designed to challenge university-level students.",
+  "Impact: Strengthened technical, mathematical, and ethical understanding of AI systems, developing the ability to design data-driven solutions that are efficient, reliable, and socially responsible."
+],
+
+
       chips: ["Neural Networks", "Modeling", "Ethics"],
     },
     {
       id: "epq-euler",
-      title: "Extended Project Qualification — EPQ",
+      title: "Extended Project Qualification (EPQ)",
       cover: "/image/euler.png",
       gallery: [
         // "/projects/epq-euler/cover.jpg",
         // "/projects/epq-euler/math.jpg",
         // "/projects/epq-euler/modes.jpg",
       ],
-      blurb: "Why this project: To delve into the effects that airfoil design had on the performance of aircraft, connecting physics, math, and engineering.",
-  body: [
-    // "Explored airfoil shape and its effects on lift and drag for subsonic vs supersonic conditions.",
-    // "Did mathematical modeling and aerodynamic simulations to illustrate differences in flight regimes.",
-    // "Started working on a research paper at the university level by applying core research and technical writing competences.",
-    // "Improved abilities in independent study, data interpretation, and research-related communication.",
-    "Writing a university-level dissertation titled “To what extent does varying airfoil shapes influence lift and drag in subsonic and supersonic aircraft?”",
-    "This project involved an in-depth exploration of aerodynamic principles, focusing on how variations in airfoil geometry affect performance across different flight regimes. ",
-    "Required  mathematical modeling, aerodynamic simulations, and comparative analysis of subsonic versus supersonic conditions together.",
-"Other than the theoretical part, the dissertation also had technical writing, independent inquiry, and data analysis while giving important insights into the design trade-offs faced by aerospace engineers.",
-    "Impact: The project provided ideas about the issues of design that the aerospace field facing which help the readiness of the advanced study by giving the hints based on this research."
-  ],
+      blurb: "Why this project: To investigate how variations in airfoil geometry influence aerodynamic performance across subsonic and supersonic flight regimes.",
+//   body: [
+//     // "Explored airfoil shape and its effects on lift and drag for subsonic vs supersonic conditions.",
+//     // "Did mathematical modeling and aerodynamic simulations to illustrate differences in flight regimes.",
+//     // "Started working on a research paper at the university level by applying core research and technical writing competences.",
+//     // "Improved abilities in independent study, data interpretation, and research-related communication.",
+//     "Writing a university-level dissertation titled “To what extent does varying airfoil shapes influence lift and drag in subsonic and supersonic aircraft?”",
+//     "This project involved an in-depth exploration of aerodynamic principles, focusing on how variations in airfoil geometry affect performance across different flight regimes. ",
+//     "Required  mathematical modeling, aerodynamic simulations, and comparative analysis of subsonic versus supersonic conditions together.",
+// "Other than the theoretical part, the dissertation also had technical writing, independent inquiry, and data analysis while giving important insights into the design trade-offs faced by aerospace engineers.",
+//     "Impact: The project provided ideas about the issues of design that the aerospace field facing which help the readiness of the advanced study by giving the hints based on this research."
+//   ],
+
+body: [
+  "Authored a university-level dissertation titled “To what extent does varying airfoil shape influence lift and drag in subsonic and supersonic aircraft?”",
+  "This project involved an in-depth exploration of aerodynamic principles, focusing on how variations in airfoil geometry affect performance across different flight regimes.",
+  "Compared results across flight regimes to evaluate design trade-offs affecting lift, drag, and overall performance efficiency.",
+  "Developed mathematical modeling, aerodynamic simulations, and comparative analysis of subsonic versus supersonic conditions together.",
+  "Emphasized problem-solving and evaluation consistent with university-standard research methodology.",
+  "Other than the theoretical part, the dissertation also included technical writing, independent inquiry, and data analysis, providing key insights into the design trade-offs faced by aerospace engineers.",
+  "Impact: Built a strong foundation in applied physics and aerospace engineering, developing analytical and research skills essential for future academic and professional pursuits in aeronautical science."
+],
+
   chips: ["Aerodynamics", "Applied Physics", "Research Writing"],    },
     {
       id: "Propulsion Systems",
@@ -264,7 +279,7 @@ export default function ProjectsDetails() {
           viewport={{ once: true, amount: 0.25 }}
           className="text-3xl md:text-4xl font-bold text-center mb-3 text-blue-950"
         >
-          Projects & Research — Details
+          Projects & Research Details
         </motion.h2>
         <motion.p
           variants={reveal}
@@ -273,9 +288,9 @@ export default function ProjectsDetails() {
           viewport={{ once: true, amount: 0.25 }}
           className="mx-auto max-w-3xl text-center text-gray-700"
         >
-          My projects bring together academic knowledge, technical skills, and a focus on
-          solving real-world problems. From early concepts to fully developed prototypes,
-          each one balances innovation with practical application.
+          My projects bring together academic knowledge, technical skills, and a focus on solving real-world problems. Each one reflects a balance between innovation and practical application, whether it’s building technology for underserved communities, exploring AI’s role in healthcare, or addressing environmental challenges. 
+These projects have given me the chance to work both independently and as part of a team, often in competitive or high-profile environments. From early concepts to fully developed prototypes, the work has been shaped by research, experimentation, and a commitment to producing results that have real impact.
+
         </motion.p>
 
         <div className="mt-12 space-y-14">

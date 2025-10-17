@@ -21,7 +21,7 @@ export default function Slider() {
 
       { src: '/image/ocean_rover.png', text: 'Ocean Clean-up Rover Prototype', para:"Created for Expo 2020 Sustainability Pavilion; designed to collect ocean waste and promote sustainability.  " },
       { src: '/image/three.png', text: 'Pneumonia Detection Model (Inspirit AI Scholars Program)', para:"Built a machine learning model to detect pneumonia from X-ray data; integrated AI ethics considerations." },
-      { src: '/image/rover.png', text: 'Mobility Rover for Landlocked Communities', para:"Designing and prototyping a rover to transport medical personnel and essential supplies; focus on functional materials and mechanical mechanisms.  " },
+      { src: '/image/rover.png', text: 'Mobility Rover for Landlocked Communities', para:"Designed and prototyped a functional rover capable of transporting essential medical and relief supplies to landlocked areas; focused on optimizing mechanical systems, terrain adaptability, and material efficiency to ensure safe and reliable delivery without human transport. " },
     { src: '/image/four.png', text: 'Machine Learning Systems (Stanford Pre-Collegiate Summer Institute)', para:"Designed AI systems in Python under mentorship from top AI researchers." },
     
   ];

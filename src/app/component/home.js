@@ -95,7 +95,7 @@ export default function Home() {
         <div className="mt-6 flex gap-4">
           <a
             // href="/pdf/Resume.docx"
-            href="https://1drv.ms/w/c/f979c792e77030eb/EbO5rWp7CX9BsKi_JMmtYWcB3czzfcS6OHuzzyYvyIKaFQ?e=UWYAOz"
+            href="https://1drv.ms/b/c/f979c792e77030eb/EdLwGJPWVMdEmGsyAbt6_dkBHRg494XzcLGmnxp4imrmXg?e=apuaue"
             download
             className="px-6 py-3 bg-[#eccc93] text-[#1a334c] rounded-xl shadow-lg hover:bg-[#eccc99] font-bold transition"
           >

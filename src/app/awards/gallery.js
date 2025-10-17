@@ -81,7 +81,7 @@ export default function Gallery() {
     <section className={`bg-[#011e35] py-16 ${ptSerif.className} `} id="ismtf-gallery">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#d6d6d6] mb-10 border-b border-gray-700 pb-4">
-    ISMTF Vienna Gallery
+    ISMTF Vienna 
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -112,7 +112,7 @@ export default function Gallery() {
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#d6d6d6] mb-10 border-b border-gray-700 pb-4">
       
-                    Expo 2020 Innovator Competition Gallery
+                    Expo 2020 Innovator Competition 
 
         </h2>
 
@@ -144,7 +144,7 @@ export default function Gallery() {
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#d6d6d6] mb-10 border-b border-gray-700 pb-4">
       
-                    Rubik’s Cube Solver Gallery 
+                    Rubik’s Cube Solver Competition 
 
         </h2>
 
@@ -177,7 +177,7 @@ export default function Gallery() {
    <section className={`bg-[#011e35] py-16 ${ptSerif.className}`} id="gallery">
   <div className="max-w-7xl mx-auto px-6">
     <h2 className="text-3xl md:text-4xl font-bold text-center text-[#d6d6d6] mb-10 border-b border-gray-700 pb-4">
-      KenKen Competitions Gallery
+      KenKen Competitions 
     </h2>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

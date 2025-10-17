@@ -131,48 +131,72 @@ export default function LeadershipSection() {
     {
       title: "Head – Physics & Engineering Society",
       points: [
-        "Oversaw the operation of the school’s main STEM society;",
-        "Planned and delivered workshops, coordinated guest lectures, and managed collaborative group projects.",
+        // "Oversaw the operation of the school’s main STEM society;",
+        // "Planned and delivered workshops, coordinated guest lectures, and managed collaborative group projects.",
         // "Made STEM fun and practical to spark real innovation.",
+       " Oversaw the operation of the school’s main STEM society.",
+"Planned and delivered workshops, coordinated guest lectures, and managed collaborative group projects.",
+"Focused on creating sessions that encouraged practical application of concepts and inspired interest in STEM innovation.",
+
+
       ],
     },
     {
       title: "Co-Founder – Physics in Motion Club",
       points: [
-        "Launched a student-led club dedicated to exploring motion systems through hands-on learning;",
-        "Designed and delivered sessions on topics such as aerodynamics and combustion engines;",
+        // "Launched a student-led club dedicated to exploring motion systems through hands-on learning;",
+        // "Designed and delivered sessions on topics such as aerodynamics and combustion engines;",
         // "Handled planning, materials, and multi-year participation.",
+        "Launched a student-led club dedicated to exploring motion systems through hands-on learning.",
+"Designed and delivered sessions on topics such as aerodynamics and combustion engines.",
+"Guided members in building small-scale engineering projects including rubber band cars and perfume rockets."
+
       ],
     },
     {
       title: "Co-Organizer – DC Physics Olympiad",
       points: [
-        "Handled logistics and participant engagement for an inter-school physics competition;",
-        "Introduced a tiered certification system to acknowledge varying levels of achievement among participants.",
+        // "Handled logistics and participant engagement for an inter-school physics competition;",
+        // "Introduced a tiered certification system to acknowledge varying levels of achievement among participants.",
         // "Introduced tiered certifications to recognize achievement.",
+       " Handled logistics and participant engagement for an inter-school physics competition.",
+"Coordinated event schedules, managed registrations, and introduced a tiered certification system to acknowledge varying levels of achievement among participants."
+
       ],
     },
     {
       title: "Chief Editor – School Engineering Magazine",
       points: [
+        // "Directed the editorial strategy for DC Hydraulics, a student-run magazine focused on scientific and engineering breakthroughs. ",
+        // "Managed the process from topic selection to final publication. Reviewed all articles for clarity and accuracy, and contributed original pieces to each issue.",
+        // "Contributed original pieces to each issue.",
         "Directed the editorial strategy for DC Hydraulics, a student-run magazine focused on scientific and engineering breakthroughs. ",
         "Managed the process from topic selection to final publication. Reviewed all articles for clarity and accuracy, and contributed original pieces to each issue.",
-        // "Contributed original pieces to each issue.",
+
       ],
     },
     {
       title: "Lower School Liaison",
       points: [
-        "Led initiatives to provide academic and extracurricular support for younger students. ",
-        "Connected juniors with senior clubs and competitions.",
-        "Organized activities, acting as a bridge between year groups to make academic help more accessible.",
+        // "Led initiatives to provide academic and extracurricular support for younger students. ",
+        // "Connected juniors with senior clubs and competitions.",
+        // "Organized activities, acting as a bridge between year groups to make academic help more accessible.",
+
+       " Led initiatives to provide academic and extracurricular support for younger students. ",
+"Developed a peer tutoring system to help with challenging subjects." ,
+"Organized engagement activities to connect lower school students with senior year clubs and competitions. ",
+"Acted as a bridge between year groups to make academic help more accessible."
+
       ],
     },
     {
       title: "Student Wellbeing Ambassador",
       points: [
-        "Advocated for mental health and academic support within the school community. ",
-        "Acted as a point of contact for peers seeking guidance.",
+      "  Advocated for mental health and academic support within the school community. ",
+"Promoted a culture of empathy and inclusion by supporting wellbeing initiatives and student-led awareness campaigns. ",
+"Acted as a point of contact for peers seeking guidance.",
+"Developed a website, www.brightmindme.com, where I upload videos on diverse topics, offering practical tips to support student wellbeing."
+
         // "Served as a trusted point of contact for peers.",
       ],
       link:"https://brightmindme.com/",
@@ -211,8 +235,8 @@ export default function LeadershipSection() {
 
        <p className="mt-4 text-[#1a334c] leading-relaxed">
         {/* To me, leadership means taking responsibility and helping the team work together. In school projects, clubs, or community work, I’ve learned how to plan, organize, and make difficult decisions. I aim to keep things clear, calm, and cooperative so everyone can do their best. */}
-I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work.
-
+{/* I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work. */}
+Leadership for me is about taking responsibility, guiding others, and helping teams work toward a shared goal. Whether in academic settings, extracurricular activities, or community initiatives, I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work.
        </p>
 
       </motion.div>
@@ -247,14 +271,16 @@ I’ve taken on roles that require planning, coordination, and decision-making. 
               </ul>
               <div className="mt-4">
               {role.link && (
-                
-                <a href={role.link} target="_blank" rel="noopener noreferrer" className="text-[#eccc93] underline font-semibold">
-                  
-                  Vist Website 
-                  
-                  
-                  </a>
-              )}
+  <a
+    href={role.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#eccc93] text-[#1a334c] rounded-xl shadow-lg hover:bg-[#f0d8aa] font-bold transition px-8 py-3 inline-block"
+  >
+    Visit Website
+  </a>
+)}
+
             </div>
             </div>
 
