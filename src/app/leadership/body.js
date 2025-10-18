@@ -245,7 +245,7 @@ export default function LeadershipSection() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
-          className="mx-auto max-w-6xl text-center mb-3 text-gray-700"
+          className="mx-auto max-w-6xl text-center mb-3 mt-2 text-gray-700"
         >
           Leadership for me is about taking responsibility, guiding others, and helping teams work toward a shared goal. Whether in academic settings, extracurricular activities, or community initiatives, I’ve taken on roles that require planning, coordination, and decision-making. These experiences have taught me how to communicate clearly, stay organized under pressure, and create an environment where others can contribute their best work.
 
@@ -282,17 +282,26 @@ export default function LeadershipSection() {
                 ))}
               </ul> */}
 
-              <ul className="mt-3 text-[#d6d6d6] leading-relaxed list-disc list-inside space-y-2">
+              {/* <ul className="mt-3 text-[#d6d6d6] leading-relaxed list-disc list-inside space-y-2">
   {role.points.map((p, idx) => (
     <li
       key={p}
-      className={idx === role.points.length - 1 ? "list-none" : ""}
+      className={idx === role.points.length  ? "list-none" : ""}
     >
       {p}
     </li>
   ))}
-</ul>
+</ul> */}
 
+
+<ul className="mt-4 space-y-3 text-[#d6d6d6] leading-relaxed">
+  {role.points.map((para, idx) => (
+    <li key={idx} className="flex gap-3">
+      <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#d6d6d6]"></span>
+      <p>{para}</p>
+    </li>
+  ))}
+</ul>
               <div className="mt-4">
               {role.link && (
   <a

@@ -167,7 +167,7 @@ export default function Navbar() {
     { label: "Leadership", href: "/leadership" },
     { label: "Sports", href: "/sports" },
     { label: "Work Experience", href: "/work_ex" },
-    { label: "Awards & Achievements", href: "/awards" },
+    { label: "Scores, Awards & Achievements", href: "/awards" },
     { label: "Student Wellbeing Ambassador", href: "https://brightmindme.com/" },
     // { label: "Awards & Achievements", href: "/awards" },
   ];
@@ -178,7 +178,7 @@ export default function Navbar() {
         scrolled ? "bg-[#d6d6d6] shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex justify-between items-center px-8 py-4">
+      <div className="container mx-auto flex justify-between items-center px-4 py-4">
         {/* Brand */}
         <div
           className={`font-bold text-lg ${

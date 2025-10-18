@@ -18,8 +18,10 @@ export default function Navbar() {
     { label: "Publications", href: "/publication" },
     { label: "Leadership", href: "/leadership" },
     { label: "Sports", href: "/sports" },
-    { label: "Work Experience", href: "/work_ex" },
-    { label: "Awards & Achievements", href: "/awards" },
+        { label: "Work Experience", href: "/work_ex" },
+
+  { label: "Scores, Awards & Achievements", href: "/awards" },
+    { label: "Student Wellbeing Ambassador", href: "https://brightmindme.com/" },
   ];
 
   return (
@@ -29,7 +31,7 @@ export default function Navbar() {
         <div className={` font-bold text-lg text-blue-950  ${ptSerif.className} `}>Humayl Fazal</div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-6">
           {menuItems.map((item, index) => (
             <Link
               key={index}

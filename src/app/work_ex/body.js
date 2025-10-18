@@ -245,9 +245,12 @@ export default function Body() {
       companyDetails:
         "2Excel Engineering specializes in aircraft maintenance and modification, Turnpoint provides aviation training and solutions, and Lasham Gliding is one of Europe’s largest gliding centers. Together, they offer immersive industry exposure across aircraft systems, engineering practices, and real-world aviation operations.",
    description: [
-  "Completed an immersive engineering internship in partnership with Turnpoint, 2Excel Engineering, and Lasham Gliding.",
-  "Gained hands-on exposure to aviation engineering and gliding operations, working directly with industry professionals.",
-  "Explored aircraft systems, studied the mechanics of gliders, and learned practical maintenance techniques. The program combined technical insight with hands-on operational experience, providing a real-world perspective on engineering within the aviation industry."
+  "Completed an immersive engineering internship in partnership with Turnpoint, 2Excel Engineering, and Lasham Gliding, gaining a comprehensive understanding of modern aviation systems and practices.",
+  // "Completed an immersive engineering internship in partnership with Turnpoint, 2Excel Engineering, and Lasham Gliding.",
+  "Worked closely with aerospace engineers, glider technicians, and maintenance teams to gain hands-on exposure to aircraft engineering and operational processes.",
+  // "Gained hands-on exposure to aviation engineering and gliding operations, working directly with industry professionals.",
+  "Explored aircraft systems in detail, studied the aerodynamics and mechanics of gliders, and learned practical maintenance and safety procedures used in real flight environments.",
+  "Designed and tested basic flight components while observing aircraft inspections, developing both technical competence and teamwork skills. The program offered a real-world perspective on the aviation industry, bridging classroom learning with professional engineering applications.",
 ],
 
       photos: false,
@@ -276,8 +279,11 @@ export default function Body() {
         // "Collaborated with cross-functional teams to identify ways to improve ATM solutions; testing and troubleshooting to ensure smooth hardware and software integration for ATM systems.",
         // "Collaborated with engineering teams to improve solutions."
 
-        "Gained exposure to the corporate environment and learned how ATM projects integrate both hardware and software components. ",
-        "Collaborated with cross-functional teams to identify ways to improve ATM solutions; testing and troubleshooting to ensure smooth hardware and software integration for ATM systems."
+        "Gained exposure to the corporate engineering environment and developed an understanding of how ATM projects integrate hardware and software components to deliver seamless functionality. ",
+        // "Gained exposure to the corporate environment and learned how ATM projects integrate both hardware and software components. ",
+        // "Collaborated with cross-functional teams to identify ways to improve ATM solutions; testing and troubleshooting to ensure smooth hardware and software integration for ATM systems.",
+        "Collaborated with cross-functional teams to identify areas for improvement in ATM solutions, actively participating in testing and troubleshooting processes to ensure stable performance and reliable system integration.",
+        "Worked closely with engineering teams to review project workflows, analyze system efficiency, and explore potential enhancements to improve the overall performance and sustainability of ATM technologies."
       ],
       photos: false,
     },
@@ -392,7 +398,7 @@ export default function Body() {
       initial={{ opacity: 0, y: -30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="text-3xl md:text-4xl font-bold mb-10 text-center text-blue-950"
+      className="text-3xl md:text-4xl font-bold mb-3 text-center text-blue-950"
     >
       Work Experience
     </motion.h2>
@@ -402,7 +408,7 @@ export default function Body() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className="mx-auto max-w-6xl text-center mb-3 text-gray-700"
+      className="mx-auto max-w-6xl text-center mb-6 text-gray-700"
     >
       Work experience has given me the opportunity to apply classroom knowledge to real-world projects, understand professional workflows, and develop practical skills in engineering, aerospace, and technology systems. These roles have allowed me to collaborate with industry professionals and gain a deeper appreciation for the link between theory and application.
     </motion.p>
@@ -423,9 +429,9 @@ export default function Body() {
               <img src={exp.logo} alt={exp.title} className="w-14 h-14 object-contain border-2 border-gray-50" />
               <h3 className="text-xl font-semibold text-[#d6d6d6]">{exp.title}</h3>
             </div>
-            {exp.date && (
+            {/* {exp.date && (
               <span className="text-sm text-[#a0aec0] italic">{exp.date}</span>
-            )}
+            )} */}
           </div>
 
           {exp.companyDetails && (

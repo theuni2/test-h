@@ -444,7 +444,7 @@ export default function Achievements() {
           title: "ISMTF Senior Maths Competition",
           description:(
             // "Represented Dubai College at the International Schools Mathematics Teachers Foundation (ISMTF) Senior Olympiad in Vienna, competing against top international teams.",
-      <> Achieved top performance in the ISMTF Virtual Senior Mathematics Competition 2024, leading to selection as a representative of Dubai College at the international ISMTF competition in Vienna. Ranked among the <strong>Top 30 globally</strong>, demonstrating excellence in advanced mathematics at both virtual and international levels.</>
+      <> Achieved top performance in the ISMTF Virtual Senior Mathematics Competition 2024, leading to selection as a representative of Dubai College at the international ISMTF competition in Vienna. Ranked among the <strong>top 30 globally</strong>, demonstrating excellence in advanced mathematics at both virtual and international levels.</>
           ),  
       },
      
@@ -550,7 +550,7 @@ export default function Achievements() {
   title: "KenKen Competitions",
   description: [
     <>I consistently participated in KenKen competitions over several years, progressing from the school level to inter-school contests across Dubai, finally competing at the national level within the UAE.</>,
-    <>Along the way, multiple high placements have been achieved, including a <strong>2nd place</strong> finish <strong>xnationally</strong>, which was also recognized with a monetary award.</>,
+    <>Along the way, multiple high placements have been achieved, including a <strong>2nd place</strong> finish <strong>nationally</strong>, which was also recognized with a monetary award.</>,
   ],
 }
 ,
@@ -596,7 +596,7 @@ export default function Achievements() {
       ],
     },
     {
-  category: "Score",
+  category: "Scores",
   items: [
     {
       title: "SAT",
@@ -649,7 +649,7 @@ export default function Achievements() {
       {/* Left Column */}
       <div className="w-full md:w-1/3 flex flex-col items-start">
         <h2 className="text-4xl font-bold text-blue-950 mb-6 text-center">
-          Awards & Achievements
+         Scores, Awards & Achievements
         </h2>
 
         <Image
@@ -666,7 +666,7 @@ export default function Achievements() {
           rel="noopener noreferrer"
           className="mb-4 bg-[#eccc93] mx-auto text-[#1a334c] font-semibold py-2 px-4 rounded-lg transition duration-300 w-full md:w-auto"
         >
-          Connect with me on LinkedIn
+          Connect on LinkedIn
         </a>
 
         <a
@@ -675,7 +675,7 @@ export default function Achievements() {
           rel="noopener noreferrer"
           className="mb-4 bg-[#eccc93] mx-auto text-[#1a334c] font-semibold py-2 px-4 rounded-lg transition duration-300 w-full md:w-auto"
         >
-          Download my Resume
+          View my Resume
         </a>
       </div>
 
@@ -702,11 +702,19 @@ export default function Achievements() {
                   {expandedIndex === currentIndex && (
                     <div className="mt-2 text-sm text-gray-700">
                       {Array.isArray(item.description) ? (
-                        <ul className="list-disc list-inside space-y-1">
-                          {item.description.map((point, idx) => (
-                            <li key={idx}>{point}</li>
-                          ))}
-                        </ul>
+                        // <ul className="list-disc list-inside leading-relaxed space-y-1">
+                        //   {item.description.map((point, idx) => (
+                        //     <li key={idx}>{point}</li>
+                        //   ))}
+                        // </ul>
+                        <ul className="mt-4 space-y-3 list-disc text-gray-700 leading-relaxed">
+  {item.description.map((para, idx) => (
+    <li key={idx} className="flex gap-3">
+      <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#5a5a5a]"></span>
+      <p>{para}</p>
+    </li>
+  ))}
+</ul>
                       ) : (
                         <p>{item.description}</p>
                       )}
@@ -719,5 +727,6 @@ export default function Achievements() {
         ))}
       </div>
     </section>
+
   );
 }
