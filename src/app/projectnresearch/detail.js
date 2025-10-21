@@ -372,14 +372,31 @@ These projects have given me the chance to work both independently and as part o
                 <h3 className="text-2xl font-bold text-[#5a5a5a]">{p.title}</h3>
                 <p className="mt-2 text-gray-700">{p.blurb}</p>
 
-                <ul className="mt-4 space-y-3 text-gray-700 leading-relaxed">
+                {/* <ul className="mt-4 space-y-3 text-gray-700 leading-relaxed">
   {p.body.map((para, idx) => (
     <li key={idx} className="flex gap-3">
       <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#5a5a5a]"></span>
       <p>{para}</p>
     </li>
   ))}
+</ul> */}
+
+<ul className="mt-4 space-y-3 text-gray-700 leading-relaxed">
+  {p.body.map((para, idx) => {
+    // Check if the paragraph starts with "Why This Project:" or "Impact:"
+    const startsWithoutBullet = /^why this project|^impact/i.test(para);
+
+    return (
+      <li key={idx} className={`flex gap-3 ${startsWithoutBullet ? "items-start" : ""}`}>
+        {!startsWithoutBullet && (
+          <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#5a5a5a]"></span>
+        )}
+        <p>{para}</p>
+      </li>
+    );
+  })}
 </ul>
+
 
 
                 {/* Links / actions */}

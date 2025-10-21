@@ -309,7 +309,7 @@ export default function Body() {
         "Eddyfi Technologies is a global leader in non-destructive testing (NDT), providing advanced instruments, sensors, software, and robotic systems. Serving industries from aerospace to energy, it helps organizations improve safety, productivity, and asset reliability worldwide.",
   description: [
   "Participated in a six-week engineer shadowing program delivered in collaboration with Eddyfi Technology.",
-  "Attended live sessions covering multiple engineering fields, including robotics, aerospace, mechanical, electrical, and sustainable design.",
+  "Live sessions that I attended  covered multiple engineering fields, including robotics, aerospace, mechanical, electrical, and sustainable design.",
   "Created aerodynamic car models using CAD tools, designed and programmed robotic systems in simulation software, and explored renewable design concepts."
 ],
 

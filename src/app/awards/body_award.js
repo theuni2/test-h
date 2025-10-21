@@ -460,10 +460,10 @@ export default function Achievements() {
       title: "Mathematics Competitions ",
       description: [
         <>Achieved distinction and strong placements across a range of prestigious mathematics competitions, including:</>,
-        <>Achieved the <strong>Gold</strong> Certificate in the UKMT Maths Challenge for <strong>five consecutive years (Years 8–12)</strong>, recognizing outstanding performance in <strong>advanced mathematical problem-solving</strong> and <strong>analytical reasoning</strong>.</>,
+        <>Achieved the <strong>Gold</strong> Certificate in the UKMT Maths Challenge for <strong>five consecutive years (Years 8–12)</strong>, recognizing outstanding performance in advanced mathematical problem-solving and analytical reasoning.</>,
         <>Represented Dubai College in the Dubai Maths Super Leagu, where the school secured <strong>1st place </strong> in both Year 10 and Year 11.</>,
         <>Qualified for the British Mathematical Olympiad (BMO) based on exceptional performance in the UKMT Senior Mathematical Challenge.</>,
-        <>Earned <strong>1st place </strong>in AMC 8 and <strong>3rd place</strong> in AMC 10. Participated in <strong>AMC 12</strong>, gaining exposure to challenging <strong>university-preparatory problem sets</strong>.</>,
+        <>Earned <strong>1st place </strong>in AMC 8 and <strong>3rd place</strong> in AMC 10. Participated in AMC 12, gaining exposure to challenging university-preparatory problem sets.</>,
         <>Awarded <strong>Distinction Certificates</strong> in Galois, Fermat, CIMC, and CSMC contests by the Centre for Education in Mathematics and Computing (CEMC).</>,
       ],
     },
@@ -576,7 +576,7 @@ export default function Achievements() {
   description: [
     <>As an Ambassador of Change for TCF, played a pivotal role in a team initiative that raised <strong> AED 187,000</strong> to support education for underprivileged children in Pakistan.</>,
     <>This funding fully covered the annual operational costs of two TCF schools, opening the doors of learning to nearly <strong>420 </strong>students for an entire year.</>,
-    <>The campaign was driven by the belief that education transforms lives, and every effort was dedicated to ensuring these children have the chance to build a brighter future.</>,
+    <>The campaign had a belief that education transforms lives, and every effort was dedicated to ensuring these children have the chance to build a brighter future.1</>,
     <>Currently working as a Baghbaan Volunteer, contributing to initiatives that create awareness and support the same cause through community engagement and outreach efforts.</>,
   ],
 }
